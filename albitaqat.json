@@ -1,573 +1,573 @@
 [
     {
         "name":"الفاتحة",
-        "audio":"./media/albitaqat/mp3/001.mp3",
-        "image":"./media/albitaqat/images/001.jpg"
+        "audio":"./mp3/001.mp3",
+        "image":"./images/001.jpg"
     },
     {
         "name":"البقرة",
-        "audio":"./media/albitaqat/mp3/002.mp3",
-        "image":"./media/albitaqat/images/002.jpg"
+        "audio":"./mp3/002.mp3",
+        "image":"./images/002.jpg"
     },
     {
         "name":"آل عمران",
-        "audio":"./media/albitaqat/mp3/003.mp3",
-        "image":"./media/albitaqat/images/003.jpg"
+        "audio":"./mp3/003.mp3",
+        "image":"./images/003.jpg"
     },
     {
         "name":"النساء",
-        "audio":"./media/albitaqat/mp3/004.mp3",
-        "image":"./media/albitaqat/images/004.jpg"
+        "audio":"./mp3/004.mp3",
+        "image":"./images/004.jpg"
     },
     {
         "name":"المائدة",
-        "audio":"./media/albitaqat/mp3/005.mp3",
-        "image":"./media/albitaqat/images/005.jpg"
+        "audio":"./mp3/005.mp3",
+        "image":"./images/005.jpg"
     },
     {
         "name":"الأنعام",
-        "audio":"./media/albitaqat/mp3/006.mp3",
-        "image":"./media/albitaqat/images/006.jpg"
+        "audio":"./mp3/006.mp3",
+        "image":"./images/006.jpg"
     },
     {
         "name":"الأعراف",
-        "audio":"./media/albitaqat/mp3/007.mp3",
-        "image":"./media/albitaqat/images/007.jpg"
+        "audio":"./mp3/007.mp3",
+        "image":"./images/007.jpg"
     },
     {
         "name":"الأنفال",
-        "audio":"./media/albitaqat/mp3/008.mp3",
-        "image":"./media/albitaqat/images/008.jpg"
+        "audio":"./mp3/008.mp3",
+        "image":"./images/008.jpg"
     },
     {
         "name":"التوبة",
-        "audio":"./media/albitaqat/mp3/009.mp3",
-        "image":"./media/albitaqat/images/009.jpg"
+        "audio":"./mp3/009.mp3",
+        "image":"./images/009.jpg"
     },
     {
         "name":"يونس",
-        "audio":"./media/albitaqat/mp3/010.mp3",
-        "image":"./media/albitaqat/images/010.jpg"
+        "audio":"./mp3/010.mp3",
+        "image":"./images/010.jpg"
     },
     {
         "name":"هود",
-        "audio":"./media/albitaqat/mp3/011.mp3",
-        "image":"./media/albitaqat/images/011.jpg"
+        "audio":"./mp3/011.mp3",
+        "image":"./images/011.jpg"
     },
     {
         "name":"يوسف",
-        "audio":"./media/albitaqat/mp3/012.mp3",
-        "image":"./media/albitaqat/images/012.jpg"
+        "audio":"./mp3/012.mp3",
+        "image":"./images/012.jpg"
     },
     {
         "name":"الرعد",
-        "audio":"./media/albitaqat/mp3/013.mp3",
-        "image":"./media/albitaqat/images/013.jpg"
+        "audio":"./mp3/013.mp3",
+        "image":"./images/013.jpg"
     },
     {
         "name":"ابراهيم",
-        "audio":"./media/albitaqat/mp3/014.mp3",
-        "image":"./media/albitaqat/images/014.jpg"
+        "audio":"./mp3/014.mp3",
+        "image":"./images/014.jpg"
     },
     {
         "name":"الحجر",
-        "audio":"./media/albitaqat/mp3/015.mp3",
-        "image":"./media/albitaqat/images/015.jpg"
+        "audio":"./mp3/015.mp3",
+        "image":"./images/015.jpg"
     },
     {
         "name":"النحل",
-        "audio":"./media/albitaqat/mp3/016.mp3",
-        "image":"./media/albitaqat/images/016.jpg"
+        "audio":"./mp3/016.mp3",
+        "image":"./images/016.jpg"
     },
     {
         "name":"الإسراء",
-        "audio":"./media/albitaqat/mp3/017.mp3",
-        "image":"./media/albitaqat/images/017.jpg"
+        "audio":"./mp3/017.mp3",
+        "image":"./images/017.jpg"
     },
     {
         "name":"الكهف",
-        "audio":"./media/albitaqat/mp3/018.mp3",
-        "image":"./media/albitaqat/images/018.jpg"
+        "audio":"./mp3/018.mp3",
+        "image":"./images/018.jpg"
     },
     {
         "name":"مريم",
-        "audio":"./media/albitaqat/mp3/019.mp3",
-        "image":"./media/albitaqat/images/019.jpg"
+        "audio":"./mp3/019.mp3",
+        "image":"./images/019.jpg"
     },
     {
         "name":"طه",
-        "audio":"./media/albitaqat/mp3/020.mp3",
-        "image":"./media/albitaqat/images/020.jpg"
+        "audio":"./mp3/020.mp3",
+        "image":"./images/020.jpg"
     },
     {
         "name":"الأنبياء",
-        "audio":"./media/albitaqat/mp3/021.mp3",
-        "image":"./media/albitaqat/images/021.jpg"
+        "audio":"./mp3/021.mp3",
+        "image":"./images/021.jpg"
     },
     {
         "name":"الحج",
-        "audio":"./media/albitaqat/mp3/022.mp3",
-        "image":"./media/albitaqat/images/022.jpg"
+        "audio":"./mp3/022.mp3",
+        "image":"./images/022.jpg"
     },
     {
         "name":"المؤمنون",
-        "audio":"./media/albitaqat/mp3/023.mp3",
-        "image":"./media/albitaqat/images/023.jpg"
+        "audio":"./mp3/023.mp3",
+        "image":"./images/023.jpg"
     },
     {
         "name":"النور",
-        "audio":"./media/albitaqat/mp3/024.mp3",
-        "image":"./media/albitaqat/images/024.jpg"
+        "audio":"./mp3/024.mp3",
+        "image":"./images/024.jpg"
     },
     {
         "name":"الفرقان",
-        "audio":"./media/albitaqat/mp3/025.mp3",
-        "image":"./media/albitaqat/images/025.jpg"
+        "audio":"./mp3/025.mp3",
+        "image":"./images/025.jpg"
     },
     {
         "name":"الشعراء",
-        "audio":"./media/albitaqat/mp3/026.mp3",
-        "image":"./media/albitaqat/images/026.jpg"
+        "audio":"./mp3/026.mp3",
+        "image":"./images/026.jpg"
     },
     {
         "name":"النمل",
-        "audio":"./media/albitaqat/mp3/027.mp3",
-        "image":"./media/albitaqat/images/027.jpg"
+        "audio":"./mp3/027.mp3",
+        "image":"./images/027.jpg"
     },
     {
         "name":"القصص",
-        "audio":"./media/albitaqat/mp3/028.mp3",
-        "image":"./media/albitaqat/images/028.jpg"
+        "audio":"./mp3/028.mp3",
+        "image":"./images/028.jpg"
     },
     {
         "name":"العنكبوت",
-        "audio":"./media/albitaqat/mp3/029.mp3",
-        "image":"./media/albitaqat/images/029.jpg"
+        "audio":"./mp3/029.mp3",
+        "image":"./images/029.jpg"
     },
     {
         "name":"الروم",
-        "audio":"./media/albitaqat/mp3/030.mp3",
-        "image":"./media/albitaqat/images/030.jpg"
+        "audio":"./mp3/030.mp3",
+        "image":"./images/030.jpg"
     },
     {
         "name":"لقمان",
-        "audio":"./media/albitaqat/mp3/031.mp3",
-        "image":"./media/albitaqat/images/031.jpg"
+        "audio":"./mp3/031.mp3",
+        "image":"./images/031.jpg"
     },
     {
         "name":"السجدة",
-        "audio":"./media/albitaqat/mp3/032.mp3",
-        "image":"./media/albitaqat/images/032.jpg"
+        "audio":"./mp3/032.mp3",
+        "image":"./images/032.jpg"
     },
     {
         "name":"الأحزاب",
-        "audio":"./media/albitaqat/mp3/033.mp3",
-        "image":"./media/albitaqat/images/033.jpg"
+        "audio":"./mp3/033.mp3",
+        "image":"./images/033.jpg"
     },
     {
         "name":"سبأ",
-        "audio":"./media/albitaqat/mp3/034.mp3",
-        "image":"./media/albitaqat/images/034.jpg"
+        "audio":"./mp3/034.mp3",
+        "image":"./images/034.jpg"
     },
     {
         "name":"فاطر",
-        "audio":"./media/albitaqat/mp3/035.mp3",
-        "image":"./media/albitaqat/images/035.jpg"
+        "audio":"./mp3/035.mp3",
+        "image":"./images/035.jpg"
     },
     {
         "name":"يس",
-        "audio":"./media/albitaqat/mp3/036.mp3",
-        "image":"./media/albitaqat/images/036.jpg"
+        "audio":"./mp3/036.mp3",
+        "image":"./images/036.jpg"
     },
     {
         "name":"الصافات",
-        "audio":"./media/albitaqat/mp3/037.mp3",
-        "image":"./media/albitaqat/images/037.jpg"
+        "audio":"./mp3/037.mp3",
+        "image":"./images/037.jpg"
     },
     {
         "name":"ص",
-        "audio":"./media/albitaqat/mp3/038.mp3",
-        "image":"./media/albitaqat/images/038.jpg"
+        "audio":"./mp3/038.mp3",
+        "image":"./images/038.jpg"
     },
     {
         "name":"الزمر",
-        "audio":"./media/albitaqat/mp3/039.mp3",
-        "image":"./media/albitaqat/images/039.jpg"
+        "audio":"./mp3/039.mp3",
+        "image":"./images/039.jpg"
     },
     {
         "name":"غافر",
-        "audio":"./media/albitaqat/mp3/040.mp3",
-        "image":"./media/albitaqat/images/040.jpg"
+        "audio":"./mp3/040.mp3",
+        "image":"./images/040.jpg"
     },
     {
         "name":"فصلت",
-        "audio":"./media/albitaqat/mp3/041.mp3",
-        "image":"./media/albitaqat/images/041.jpg"
+        "audio":"./mp3/041.mp3",
+        "image":"./images/041.jpg"
     },
     {
         "name":"الشورى",
-        "audio":"./media/albitaqat/mp3/042.mp3",
-        "image":"./media/albitaqat/images/042.jpg"
+        "audio":"./mp3/042.mp3",
+        "image":"./images/042.jpg"
     },
     {
         "name":"الزخرف",
-        "audio":"./media/albitaqat/mp3/043.mp3",
-        "image":"./media/albitaqat/images/043.jpg"
+        "audio":"./mp3/043.mp3",
+        "image":"./images/043.jpg"
     },
     {
         "name":"الدخان",
-        "audio":"./media/albitaqat/mp3/044.mp3",
-        "image":"./media/albitaqat/images/044.jpg"
+        "audio":"./mp3/044.mp3",
+        "image":"./images/044.jpg"
     },
     {
         "name":"الجاثية",
-        "audio":"./media/albitaqat/mp3/045.mp3",
-        "image":"./media/albitaqat/images/045.jpg"
+        "audio":"./mp3/045.mp3",
+        "image":"./images/045.jpg"
     },
     {
         "name":"الأحقاف",
-        "audio":"./media/albitaqat/mp3/046.mp3",
-        "image":"./media/albitaqat/images/046.jpg"
+        "audio":"./mp3/046.mp3",
+        "image":"./images/046.jpg"
     },
     {
         "name":"محمد",
-        "audio":"./media/albitaqat/mp3/047.mp3",
-        "image":"./media/albitaqat/images/047.jpg"
+        "audio":"./mp3/047.mp3",
+        "image":"./images/047.jpg"
     },
     {
         "name":"الفتح",
-        "audio":"./media/albitaqat/mp3/048.mp3",
-        "image":"./media/albitaqat/images/048.jpg"
+        "audio":"./mp3/048.mp3",
+        "image":"./images/048.jpg"
     },
     {
         "name":"الحجرات",
-        "audio":"./media/albitaqat/mp3/049.mp3",
-        "image":"./media/albitaqat/images/049.jpg"
+        "audio":"./mp3/049.mp3",
+        "image":"./images/049.jpg"
     },
     {
         "name":"ق",
-        "audio":"./media/albitaqat/mp3/050.mp3",
-        "image":"./media/albitaqat/images/050.jpg"
+        "audio":"./mp3/050.mp3",
+        "image":"./images/050.jpg"
     },
     {
         "name":"الذاريات",
-        "audio":"./media/albitaqat/mp3/051.mp3",
-        "image":"./media/albitaqat/images/051.jpg"
+        "audio":"./mp3/051.mp3",
+        "image":"./images/051.jpg"
     },
     {
         "name":"الطور",
-        "audio":"./media/albitaqat/mp3/052.mp3",
-        "image":"./media/albitaqat/images/052.jpg"
+        "audio":"./mp3/052.mp3",
+        "image":"./images/052.jpg"
     },
     {
         "name":"النجم",
-        "audio":"./media/albitaqat/mp3/053.mp3",
-        "image":"./media/albitaqat/images/053.jpg"
+        "audio":"./mp3/053.mp3",
+        "image":"./images/053.jpg"
     },
     {
         "name":"القمر",
-        "audio":"./media/albitaqat/mp3/054.mp3",
-        "image":"./media/albitaqat/images/054.jpg"
+        "audio":"./mp3/054.mp3",
+        "image":"./images/054.jpg"
     },
     {
         "name":"الرحمن",
-        "audio":"./media/albitaqat/mp3/055.mp3",
-        "image":"./media/albitaqat/images/055.jpg"
+        "audio":"./mp3/055.mp3",
+        "image":"./images/055.jpg"
     },
     {
         "name":"الواقعة",
-        "audio":"./media/albitaqat/mp3/056.mp3",
-        "image":"./media/albitaqat/images/056.jpg"
+        "audio":"./mp3/056.mp3",
+        "image":"./images/056.jpg"
     },
     {
         "name":"الحديد",
-        "audio":"./media/albitaqat/mp3/057.mp3",
-        "image":"./media/albitaqat/images/057.jpg"
+        "audio":"./mp3/057.mp3",
+        "image":"./images/057.jpg"
     },
     {
         "name":"المجادلة",
-        "audio":"./media/albitaqat/mp3/058.mp3",
-        "image":"./media/albitaqat/images/058.jpg"
+        "audio":"./mp3/058.mp3",
+        "image":"./images/058.jpg"
     },
     {
         "name":"الحشر",
-        "audio":"./media/albitaqat/mp3/059.mp3",
-        "image":"./media/albitaqat/images/059.jpg"
+        "audio":"./mp3/059.mp3",
+        "image":"./images/059.jpg"
     },
     {
         "name":"الممتحنة",
-        "audio":"./media/albitaqat/mp3/060.mp3",
-        "image":"./media/albitaqat/images/060.jpg"
+        "audio":"./mp3/060.mp3",
+        "image":"./images/060.jpg"
     },
     {
         "name":"الصف",
-        "audio":"./media/albitaqat/mp3/061.mp3",
-        "image":"./media/albitaqat/images/061.jpg"
+        "audio":"./mp3/061.mp3",
+        "image":"./images/061.jpg"
     },
     {
         "name":"الجمعة",
-        "audio":"./media/albitaqat/mp3/062.mp3",
-        "image":"./media/albitaqat/images/062.jpg"
+        "audio":"./mp3/062.mp3",
+        "image":"./images/062.jpg"
     },
     {
         "name":"المنافقون",
-        "audio":"./media/albitaqat/mp3/063.mp3",
-        "image":"./media/albitaqat/images/063.jpg"
+        "audio":"./mp3/063.mp3",
+        "image":"./images/063.jpg"
     },
     {
         "name":"التغابن",
-        "audio":"./media/albitaqat/mp3/064.mp3",
-        "image":"./media/albitaqat/images/064.jpg"
+        "audio":"./mp3/064.mp3",
+        "image":"./images/064.jpg"
     },
     {
         "name":"الطلاق",
-        "audio":"./media/albitaqat/mp3/065.mp3",
-        "image":"./media/albitaqat/images/065.jpg"
+        "audio":"./mp3/065.mp3",
+        "image":"./images/065.jpg"
     },
     {
         "name":"التحريم",
-        "audio":"./media/albitaqat/mp3/066.mp3",
-        "image":"./media/albitaqat/images/066.jpg"
+        "audio":"./mp3/066.mp3",
+        "image":"./images/066.jpg"
     },
     {
         "name":"الملك",
-        "audio":"./media/albitaqat/mp3/067.mp3",
-        "image":"./media/albitaqat/images/067.jpg"
+        "audio":"./mp3/067.mp3",
+        "image":"./images/067.jpg"
     },
     {
         "name":"القلم",
-        "audio":"./media/albitaqat/mp3/068.mp3",
-        "image":"./media/albitaqat/images/068.jpg"
+        "audio":"./mp3/068.mp3",
+        "image":"./images/068.jpg"
     },
     {
         "name":"الحاقة",
-        "audio":"./media/albitaqat/mp3/069.mp3",
-        "image":"./media/albitaqat/images/069.jpg"
+        "audio":"./mp3/069.mp3",
+        "image":"./images/069.jpg"
     },
     {
         "name":"المعارج",
-        "audio":"./media/albitaqat/mp3/070.mp3",
-        "image":"./media/albitaqat/images/070.jpg"
+        "audio":"./mp3/070.mp3",
+        "image":"./images/070.jpg"
     },
     {
         "name":"نوح",
-        "audio":"./media/albitaqat/mp3/071.mp3",
-        "image":"./media/albitaqat/images/071.jpg"
+        "audio":"./mp3/071.mp3",
+        "image":"./images/071.jpg"
     },
     {
         "name":"الجن",
-        "audio":"./media/albitaqat/mp3/072.mp3",
-        "image":"./media/albitaqat/images/072.jpg"
+        "audio":"./mp3/072.mp3",
+        "image":"./images/072.jpg"
     },
     {
         "name":"المزمل",
-        "audio":"./media/albitaqat/mp3/073.mp3",
-        "image":"./media/albitaqat/images/073.jpg"
+        "audio":"./mp3/073.mp3",
+        "image":"./images/073.jpg"
     },
     {
         "name":"المدثر",
-        "audio":"./media/albitaqat/mp3/074.mp3",
-        "image":"./media/albitaqat/images/074.jpg"
+        "audio":"./mp3/074.mp3",
+        "image":"./images/074.jpg"
     },
     {
         "name":"القيامة",
-        "audio":"./media/albitaqat/mp3/075.mp3",
-        "image":"./media/albitaqat/images/075.jpg"
+        "audio":"./mp3/075.mp3",
+        "image":"./images/075.jpg"
     },
     {
         "name":"الإنسان",
-        "audio":"./media/albitaqat/mp3/076.mp3",
-        "image":"./media/albitaqat/images/076.jpg"
+        "audio":"./mp3/076.mp3",
+        "image":"./images/076.jpg"
     },
     {
         "name":"المرسلات",
-        "audio":"./media/albitaqat/mp3/077.mp3",
-        "image":"./media/albitaqat/images/077.jpg"
+        "audio":"./mp3/077.mp3",
+        "image":"./images/077.jpg"
     },
     {
         "name":"النبأ",
-        "audio":"./media/albitaqat/mp3/078.mp3",
-        "image":"./media/albitaqat/images/078.jpg"
+        "audio":"./mp3/078.mp3",
+        "image":"./images/078.jpg"
     },
     {
         "name":"النازعات",
-        "audio":"./media/albitaqat/mp3/079.mp3",
-        "image":"./media/albitaqat/images/079.jpg"
+        "audio":"./mp3/079.mp3",
+        "image":"./images/079.jpg"
     },
     {
         "name":"عبس",
-        "audio":"./media/albitaqat/mp3/080.mp3",
-        "image":"./media/albitaqat/images/080.jpg"
+        "audio":"./mp3/080.mp3",
+        "image":"./images/080.jpg"
     },
     {
         "name":"التكوير",
-        "audio":"./media/albitaqat/mp3/081.mp3",
-        "image":"./media/albitaqat/images/081.jpg"
+        "audio":"./mp3/081.mp3",
+        "image":"./images/081.jpg"
     },
     {
         "name":"الإنفطار",
-        "audio":"./media/albitaqat/mp3/082.mp3",
-        "image":"./media/albitaqat/images/082.jpg"
+        "audio":"./mp3/082.mp3",
+        "image":"./images/082.jpg"
     },
     {
         "name":"المطففين",
-        "audio":"./media/albitaqat/mp3/083.mp3",
-        "image":"./media/albitaqat/images/083.jpg"
+        "audio":"./mp3/083.mp3",
+        "image":"./images/083.jpg"
     },
     {
         "name":"الانشقاق",
-        "audio":"./media/albitaqat/mp3/084.mp3",
-        "image":"./media/albitaqat/images/084.jpg"
+        "audio":"./mp3/084.mp3",
+        "image":"./images/084.jpg"
     },
     {
         "name":"البروج",
-        "audio":"./media/albitaqat/mp3/085.mp3",
-        "image":"./media/albitaqat/images/085.jpg"
+        "audio":"./mp3/085.mp3",
+        "image":"./images/085.jpg"
     },
     {
         "name":"الطارق",
-        "audio":"./media/albitaqat/mp3/086.mp3",
-        "image":"./media/albitaqat/images/086.jpg"
+        "audio":"./mp3/086.mp3",
+        "image":"./images/086.jpg"
     },
     {
         "name":"الأعلى",
-        "audio":"./media/albitaqat/mp3/087.mp3",
-        "image":"./media/albitaqat/images/087.jpg"
+        "audio":"./mp3/087.mp3",
+        "image":"./images/087.jpg"
     },
     {
         "name":"الغاشية",
-        "audio":"./media/albitaqat/mp3/088.mp3",
-        "image":"./media/albitaqat/images/088.jpg"
+        "audio":"./mp3/088.mp3",
+        "image":"./images/088.jpg"
     },
     {
         "name":"الفجر",
-        "audio":"./media/albitaqat/mp3/089.mp3",
-        "image":"./media/albitaqat/images/089.jpg"
+        "audio":"./mp3/089.mp3",
+        "image":"./images/089.jpg"
     },
     {
         "name":"البلد",
-        "audio":"./media/albitaqat/mp3/090.mp3",
-        "image":"./media/albitaqat/images/090.jpg"
+        "audio":"./mp3/090.mp3",
+        "image":"./images/090.jpg"
     },
     {
         "name":"الشمس",
-        "audio":"./media/albitaqat/mp3/091.mp3",
-        "image":"./media/albitaqat/images/091.jpg"
+        "audio":"./mp3/091.mp3",
+        "image":"./images/091.jpg"
     },
     {
         "name":"الليل",
-        "audio":"./media/albitaqat/mp3/092.mp3",
-        "image":"./media/albitaqat/images/092.jpg"
+        "audio":"./mp3/092.mp3",
+        "image":"./images/092.jpg"
     },
     {
         "name":"الضحى",
-        "audio":"./media/albitaqat/mp3/093.mp3",
-        "image":"./media/albitaqat/images/093.jpg"
+        "audio":"./mp3/093.mp3",
+        "image":"./images/093.jpg"
     },
     {
         "name":"الشرح",
-        "audio":"./media/albitaqat/mp3/094.mp3",
-        "image":"./media/albitaqat/images/094.jpg"
+        "audio":"./mp3/094.mp3",
+        "image":"./images/094.jpg"
     },
     {
         "name":"التين",
-        "audio":"./media/albitaqat/mp3/095.mp3",
-        "image":"./media/albitaqat/images/095.jpg"
+        "audio":"./mp3/095.mp3",
+        "image":"./images/095.jpg"
     },
     {
         "name":"العلق",
-        "audio":"./media/albitaqat/mp3/096.mp3",
-        "image":"./media/albitaqat/images/096.jpg"
+        "audio":"./mp3/096.mp3",
+        "image":"./images/096.jpg"
     },
     {
         "name":"القدر",
-        "audio":"./media/albitaqat/mp3/097.mp3",
-        "image":"./media/albitaqat/images/097.jpg"
+        "audio":"./mp3/097.mp3",
+        "image":"./images/097.jpg"
     },
     {
         "name":"البينة",
-        "audio":"./media/albitaqat/mp3/098.mp3",
-        "image":"./media/albitaqat/images/098.jpg"
+        "audio":"./mp3/098.mp3",
+        "image":"./images/098.jpg"
     },
     {
         "name":"الزلزلة",
-        "audio":"./media/albitaqat/mp3/099.mp3",
-        "image":"./media/albitaqat/images/099.jpg"
+        "audio":"./mp3/099.mp3",
+        "image":"./images/099.jpg"
     },
     {
         "name":"العاديات",
-        "audio":"./media/albitaqat/mp3/100.mp3",
-        "image":"./media/albitaqat/images/100.jpg"
+        "audio":"./mp3/100.mp3",
+        "image":"./images/100.jpg"
     },
     {
         "name":"القارعة",
-        "audio":"./media/albitaqat/mp3/101.mp3",
-        "image":"./media/albitaqat/images/101.jpg"
+        "audio":"./mp3/101.mp3",
+        "image":"./images/101.jpg"
     },
     {
         "name":"التكاثر",
-        "audio":"./media/albitaqat/mp3/102.mp3",
-        "image":"./media/albitaqat/images/102.jpg"
+        "audio":"./mp3/102.mp3",
+        "image":"./images/102.jpg"
     },
     {
         "name":"العصر",
-        "audio":"./media/albitaqat/mp3/103.mp3",
-        "image":"./media/albitaqat/images/103.jpg"
+        "audio":"./mp3/103.mp3",
+        "image":"./images/103.jpg"
     },
     {
         "name":"الهمزة",
-        "audio":"./media/albitaqat/mp3/104.mp3",
-        "image":"./media/albitaqat/images/104.jpg"
+        "audio":"./mp3/104.mp3",
+        "image":"./images/104.jpg"
     },
     {
         "name":"الفيل",
-        "audio":"./media/albitaqat/mp3/105.mp3",
-        "image":"./media/albitaqat/images/105.jpg"
+        "audio":"./mp3/105.mp3",
+        "image":"./images/105.jpg"
     },
     {
         "name":"قريش",
-        "audio":"./media/albitaqat/mp3/106.mp3",
-        "image":"./media/albitaqat/images/106.jpg"
+        "audio":"./mp3/106.mp3",
+        "image":"./images/106.jpg"
     },
     {
         "name":"الماعون",
-        "audio":"./media/albitaqat/mp3/107.mp3",
-        "image":"./media/albitaqat/images/107.jpg"
+        "audio":"./mp3/107.mp3",
+        "image":"./images/107.jpg"
     },
     {
         "name":"الكوثر",
-        "audio":"./media/albitaqat/mp3/108.mp3",
-        "image":"./media/albitaqat/images/108.jpg"
+        "audio":"./mp3/108.mp3",
+        "image":"./images/108.jpg"
     },
     {
         "name":"الكافرون",
-        "audio":"./media/albitaqat/mp3/109.mp3",
-        "image":"./media/albitaqat/images/109.jpg"
+        "audio":"./mp3/109.mp3",
+        "image":"./images/109.jpg"
     },
     {
         "name":"النصر",
-        "audio":"./media/albitaqat/mp3/110.mp3",
-        "image":"./media/albitaqat/images/110.jpg"
+        "audio":"./mp3/110.mp3",
+        "image":"./images/110.jpg"
     },
     {
         "name":"المسد",
-        "audio":"./media/albitaqat/mp3/111.mp3",
-        "image":"./media/albitaqat/images/111.jpg"
+        "audio":"./mp3/111.mp3",
+        "image":"./images/111.jpg"
     },
     {
         "name":"الإخلاص",
-        "audio":"./media/albitaqat/mp3/112.mp3",
-        "image":"./media/albitaqat/images/112.jpg"
+        "audio":"./mp3/112.mp3",
+        "image":"./images/112.jpg"
     },
     {
         "name":"الفلق",
-        "audio":"./media/albitaqat/mp3/113.mp3",
-        "image":"./media/albitaqat/images/113.jpg"
+        "audio":"./mp3/113.mp3",
+        "image":"./images/113.jpg"
     },
     {
         "name":"الناس",
-        "audio":"./media/albitaqat/mp3/114.mp3",
-        "image":"./media/albitaqat/images/114.jpg"
+        "audio":"./mp3/114.mp3",
+        "image":"./images/114.jpg"
     }
     
 ]

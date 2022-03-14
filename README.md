@@ -34,14 +34,17 @@ image = ملف الصورة <br>
 [
     {
         "name":"الفاتحة",
-        "audio":"./media/albitaqat/mp3/001.mp3",
-        "image":"./media/albitaqat/images/001.jpg"
+        "audio":"./mp3/001.mp3",
+        "image":"./images/001.jpg"
     }
 ]
 
 ```
 
 <br><br>
+
+
+
 
 
 
