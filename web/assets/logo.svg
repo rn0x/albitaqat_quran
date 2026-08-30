@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2E7D32;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1B5E20;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B8860B;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#greenGrad)" filter="url(#shadow)"/>
+  
+  <!-- Stacked Cards Effect -->
+  <g transform="translate(100, 85)">
+    <!-- Back Card -->
+    <rect x="-35" y="-40" width="70" height="90" rx="4" fill="#fff" opacity="0.4" transform="rotate(-8)"/>
+    
+    <!-- Middle Card -->
+    <rect x="-32" y="-38" width="64" height="84" rx="4" fill="#fff" opacity="0.6" transform="rotate(-3)"/>
+    
+    <!-- Front Card -->
+    <rect x="-30" y="-35" width="60" height="78" rx="4" fill="#fff" filter="url(#shadow)"/>
+    
+    <!-- Card Content - Open Book Icon -->
+    <g transform="translate(0, -8)">
+      <!-- Book Spine -->
+      <line x1="0" y1="-18" x2="0" y2="18" stroke="#1B5E20" stroke-width="2"/>
+      
+      <!-- Left Page -->
+      <path d="M-2,-18 Q-15,-16 -18,0 Q-15,16 -2,18 Z" fill="none" stroke="#1B5E20" stroke-width="1.5"/>
+      
+      <!-- Right Page -->
+      <path d="M2,-18 Q15,-16 18,0 Q15,16 2,18 Z" fill="none" stroke="#1B5E20" stroke-width="1.5"/>
+      
+      <!-- Text Lines on Left Page -->
+      <line x1="-14" y1="-10" x2="-4" y2="-10" stroke="#1B5E20" stroke-width="0.8" opacity="0.5"/>
+      <line x1="-14" y1="-4" x2="-4" y2="-4" stroke="#1B5E20" stroke-width="0.8" opacity="0.5"/>
+      <line x1="-14" y1="2" x2="-4" y2="2" stroke="#1B5E20" stroke-width="0.8" opacity="0.5"/>
+      <line x1="-14" y1="8" x2="-4" y2="8" stroke="#1B5E20" stroke-width="0.8" opacity="0.5"/>
+      
+      <!-- Text Lines on Right Page -->
+      <line x1="4" y1="-10" x2="14" y2="-10" stroke="#1B5E20" stroke-width="0.8" opacity="0.5"/>
+      <line x1="4" y1="-4" x2="14" y2="-4" stroke="#1B5E20" stroke-width="0.8" opacity="0.5"/>
+      <line x1="4" y1="2" x2="14" y2="2" stroke="#1B5E20" stroke-width="0.8" opacity="0.5"/>
+      <line x1="4" y1="8" x2="14" y2="8" stroke="#1B5E20" stroke-width="0.8" opacity="0.5"/>
+    </g>
+    
+    <!-- Card Number -->
+    <g transform="translate(18, 28)">
+      <circle cx="0" cy="0" r="8" fill="url(#goldGrad)"/>
+      <text x="0" y="4" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#1B5E20">114</text>
+    </g>
+  </g>
+  
+  <!-- Arabic Text Below -->
+  <text x="100" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fff">بطاقات القرآن</text>
+  
+  <!-- English Text -->
+  <text x="100" y="172" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#fff" opacity="0.9">AL-BITAQAT QURAN</text>
+</svg>

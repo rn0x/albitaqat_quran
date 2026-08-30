@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
+  <title>السور | بطاقات القرآن الكريم - Al-Bitaqat Quran</title>
+  <meta name="title" content="السور | بطاقات القرآن الكريم">
+  <meta name="description" content="تصفح 114 سورة من القرآن الكريم - بيانات شاملة مع روابط الصوت والPDF ويوتيوب">
+  <meta name="keywords" content="سور القرآن, القرآن الكريم, الفاتحة, البقرة, Quran Surahs">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://rn0x.github.io/albitaqat_quran/surahs.html">
+  <meta property="og:title" content="السور | بطاقات القرآن الكريم">
+  <meta property="og:description" content="تصفح 114 سورة من القرآن الكريم">
+  <meta property="og:image" content="assets/og-image.png">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://rn0x.github.io/albitaqat_quran/surahs.html">
+  <meta property="twitter:title" content="السور | بطاقات القرآن الكريم">
+  <meta property="twitter:description" content="تصفح 114 سورة من القرآن الكريم">
+  <meta property="twitter:image" content="assets/og-image.png">
+  
+  <!-- Canonical -->
+  <link rel="canonical" href="https://rn0x.github.io/albitaqat_quran/surahs.html">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <img src="assets/logo.svg" alt="بطاقات القرآن الكريم">
+        <span data-i18n="hero.title">بطاقات القرآن الكريم</span>
+      </a>
+      
+      <ul class="navbar-nav">
+        <li><a href="index.html" data-i18n="nav.home">الرئيسية</a></li>
+        <li><a href="surahs.html" class="active" data-i18n="nav.surahs">السور</a></li>
+        <li><a href="index.html#api" data-i18n="nav.api">API</a></li>
+        <li><a href="https://github.com/rn0x/albitaqat_quran" target="_blank" data-i18n="nav.github">GitHub</a></li>
+      </ul>
+      
+      <div class="navbar-actions">
+        <button class="lang-toggle" aria-label="Toggle Language">🌐 EN</button>
+        <button class="mobile-menu-btn" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="surahs-hero">
+    <div class="container">
+      <h1 data-i18n="surahs.title">السور</h1>
+      <p class="hero-subtitle" data-i18n="surahs.subtitle">تصفح 114 سورة من القرآن الكريم</p>
+      
+      <div class="search-filter">
+        <div class="search-box">
+          <span>🔍</span>
+          <input type="text" data-i18n-placeholder="surahs.search" placeholder="بحث عن سورة...">
+        </div>
+        
+        <div class="filter-btns">
+          <button class="filter-btn active" data-filter="all" data-i18n="surahs.all">الكل</button>
+          <button class="filter-btn" data-filter="makki" data-i18n="surahs.meccan">مكية</button>
+          <button class="filter-btn" data-filter="madani" data-i18n="surahs.medinan">مدنية</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Surahs Table -->
+  <section class="surahs-container">
+    <div class="container">
+      <table class="surahs-table">
+        <thead>
+          <tr>
+            <th data-i18n="surahs.number">#</th>
+            <th data-i18n="surahs.name">الاسم</th>
+            <th data-i18n="surahs.english">English</th>
+            <th data-i18n="surahs.ayahs">آيات</th>
+            <th data-i18n="surahs.type">النوع</th>
+            <th data-i18n="surahs.links">الروابط</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Will be populated by JavaScript -->
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p data-i18n="footer.copyright">جميع الحقوق محفوظة للمؤلف</p>
+        <p class="footer-quote" data-i18n="footer.quote">بِالقُرْآنِ نَهْتَدِي، وَبِتَدْبِيرِهِ نَرْتَقِي.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    // Initialize surahs page
+    document.addEventListener('DOMContentLoaded', () => {
+      if (typeof initSurahsPage === 'function') {
+        initSurahsPage();
+      }
+    });
+  </script>
+</body>
+</html>
