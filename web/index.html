@@ -34,7 +34,10 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&family=Inter:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&family=Noto+Sans+Arabic:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Material Symbols -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0">
   
   <!-- Styles -->
   <link rel="stylesheet" href="css/style.css">
@@ -68,7 +71,7 @@
 </head>
 <body>
   <!-- Navigation -->
-  <nav class="navbar">
+  <nav class="navbar" id="navbar">
     <div class="container">
       <a href="index.html" class="navbar-brand">
         <img src="assets/logo.svg" alt="بطاقات القرآن الكريم">
@@ -76,15 +79,21 @@
       </a>
       
       <ul class="navbar-nav">
-        <li><a href="index.html" class="active" data-i18n="nav.home">الرئيسية</a></li>
-        <li><a href="surahs.html" data-i18n="nav.surahs">السور</a></li>
-        <li><a href="#api" data-i18n="nav.api">API</a></li>
-        <li><a href="https://github.com/rn0x/albitaqat_quran" target="_blank" data-i18n="nav.github">GitHub</a></li>
+        <li><a href="index.html" class="active"><span class="material-symbols-rounded">home</span> <span data-i18n="nav.home">الرئيسية</span></a></li>
+        <li><a href="surahs.html"><span class="material-symbols-rounded">menu_book</span> <span data-i18n="nav.surahs">السور</span></a></li>
+        <li><a href="#quickstart"><span class="material-symbols-rounded">rocket_launch</span> <span data-i18n="nav.docs">البدء السريع</span></a></li>
+        <li><a href="#api"><span class="material-symbols-rounded">api</span> <span data-i18n="nav.api">API</span></a></li>
+        <li><a href="https://github.com/rn0x/albitaqat_quran" target="_blank"><span class="material-symbols-rounded">code</span> GitHub</a></li>
       </ul>
       
       <div class="navbar-actions">
-        <button class="lang-toggle" aria-label="Toggle Language">🌐 EN</button>
-        <button class="mobile-menu-btn" aria-label="Menu">☰</button>
+        <button class="lang-toggle" aria-label="Toggle Language">
+          <span class="material-symbols-rounded">translate</span>
+          <span>EN</span>
+        </button>
+        <button class="mobile-menu-btn" aria-label="Menu">
+          <span class="material-symbols-rounded">menu</span>
+        </button>
       </div>
     </div>
   </nav>
@@ -92,38 +101,55 @@
   <!-- Hero Section -->
   <section class="hero">
     <div class="container hero-content">
-      <div class="hero-icon">📚</div>
-      <h1 data-i18n="hero.title">بطاقات القرآن الكريم</h1>
-      <p class="hero-subtitle" data-i18n="hero.subtitle">بيانات 114 سورة متكاملة - صوت، PDF، يوتيوب</p>
+      <div class="hero-icon animate-fade-in">
+        <span class="material-symbols-rounded icon-filled">auto_stories</span>
+      </div>
+      <h1 class="animate-fade-in-delay-1" data-i18n="hero.title">بطاقات القرآن الكريم</h1>
+      <p class="hero-subtitle animate-fade-in-delay-2" data-i18n="hero.subtitle">بيانات 114 سورة متكاملة - صوت، PDF، يوتيوب</p>
       
-      <div class="stats-grid">
+      <div class="stats-grid animate-fade-in-delay-3">
         <div class="stat-card">
+          <div class="stat-icon">
+            <span class="material-symbols-rounded icon-filled">menu_book</span>
+          </div>
           <span class="stat-number">114</span>
           <span class="stat-label" data-i18n="stats.surahs">سورة</span>
         </div>
         <div class="stat-card">
+          <div class="stat-icon">
+            <span class="material-symbols-rounded icon-filled">play_circle</span>
+          </div>
           <span class="stat-number">140+</span>
           <span class="stat-label" data-i18n="stats.videos">فيديو</span>
         </div>
         <div class="stat-card">
+          <div class="stat-icon">
+            <span class="material-symbols-rounded icon-filled">format_quote</span>
+          </div>
           <span class="stat-number">6,236</span>
           <span class="stat-label" data-i18n="stats.ayahs">آية</span>
         </div>
         <div class="stat-card">
+          <div class="stat-icon">
+            <span class="material-symbols-rounded icon-filled">cloud_download</span>
+          </div>
           <span class="stat-number">293</span>
           <span class="stat-label" data-i18n="stats.size">MB</span>
         </div>
       </div>
       
-      <div class="hero-buttons">
-        <a href="https://github.com/rn0x/albitaqat_quran/releases" class="btn btn-primary" target="_blank">
-          📥 <span data-i18n="hero.cta_download">تحميل البيانات</span>
+      <div class="hero-buttons animate-fade-in-delay-3">
+        <a href="https://github.com/rn0x/albitaqat_quran/releases" class="btn btn-accent btn-lg" target="_blank">
+          <span class="material-symbols-rounded">download</span>
+          <span data-i18n="hero.cta_download">تحميل البيانات</span>
         </a>
-        <a href="surahs.html" class="btn btn-secondary">
-          📖 <span data-i18n="hero.cta_surahs">تصفح السور</span>
+        <a href="surahs.html" class="btn btn-outline btn-lg">
+          <span class="material-symbols-rounded">book</span>
+          <span data-i18n="hero.cta_surahs">تصفح السور</span>
         </a>
-        <a href="#api" class="btn btn-outline">
-          🔌 <span data-i18n="hero.cta_api">استخدم API</span>
+        <a href="#api" class="btn btn-outline btn-lg">
+          <span class="material-symbols-rounded">terminal</span>
+          <span data-i18n="hero.cta_api">استخدم API</span>
         </a>
       </div>
     </div>
@@ -133,46 +159,109 @@
   <section class="section" id="about">
     <div class="container">
       <div class="section-header">
+        <div class="section-badge">
+          <span class="material-symbols-rounded">info</span>
+          <span data-i18n="about.title">عن المشروع</span>
+        </div>
         <h2 data-i18n="about.title">عن المشروع</h2>
         <p data-i18n="about.subtitle">مشروع وقفي عالمي لخدمة القرآن الكريم</p>
       </div>
       
       <div class="about-grid">
-        <div class="about-card">
-          <div class="about-card-icon">👤</div>
+        <div class="card about-card">
+          <div class="about-card-icon">
+            <span class="material-symbols-rounded">person</span>
+          </div>
           <h4 data-i18n="about.author_title">المؤلف</h4>
           <p data-i18n="about.author_name">أ.د. ياسر بن إسماعيل راضي</p>
         </div>
         
-        <div class="about-card">
-          <div class="about-card-icon">🌐</div>
+        <div class="card about-card">
+          <div class="about-card-icon">
+            <span class="material-symbols-rounded">language</span>
+          </div>
           <h4 data-i18n="about.site_title">الموقع الرسمي</h4>
           <p><a href="https://albitaqat.com/" target="_blank">albitaqat.com</a></p>
         </div>
         
-        <div class="about-card">
-          <div class="about-card-icon">📖</div>
+        <div class="card about-card">
+          <div class="about-card-icon">
+            <span class="material-symbols-rounded">book</span>
+          </div>
           <h4 data-i18n="about.book_title">الكتاب</h4>
           <p data-i18n="about.book_info">135 صفحة - ISBN: 9786030350469</p>
         </div>
         
-        <div class="about-card">
-          <div class="about-card-icon">🎙️</div>
+        <div class="card about-card">
+          <div class="about-card-icon">
+            <span class="material-symbols-rounded">mic</span>
+          </div>
           <h4 data-i18n="about.audio_title">التسجيل الصوتي</h4>
           <p data-i18n="about.audio_info">استديو وقف تعظيم الوحيين</p>
         </div>
       </div>
       
-      <div class="about-card mt-4">
+      <div class="about-description">
         <p data-i18n="about.description">برنامج عملي مصاحب لقراءة القرآن الكريم وحفظه، يوفر مَتْنٍ مختصرٍ شاملٍ لسور القرآن مسموعاً ومقروءاً.</p>
       </div>
     </div>
   </section>
 
-  <!-- Data Files Section -->
-  <section class="section section-alt" id="data">
+  <!-- Clone & Setup Section -->
+  <section class="section section-alt" id="clone">
     <div class="container">
       <div class="section-header">
+        <div class="section-badge">
+          <span class="material-symbols-rounded">terminal</span>
+          <span data-i18n="clone.title">تحميل المشروع</span>
+        </div>
+        <h2 data-i18n="clone.title">حمّل المشروع</h2>
+        <p data-i18n="clone.subtitle">استنسخ المستودع وابدأ خلال دقائق</p>
+      </div>
+      
+      <div class="clone-card">
+        <div class="clone-header">
+          <span class="material-symbols-rounded">terminal</span>
+          <h4 data-i18n="clone.step1">1. استنسخ المستودع</h4>
+        </div>
+        <div class="code-block">
+          <button class="copy-btn"><span class="material-symbols-rounded">content_copy</span> <span data-i18n="quickstart.copy">نسخ</span></button>
+          <pre><code><span class="comment"># استنسخ المستودع</span>
+<span class="command">git clone</span> https://github.com/rn0x/albitaqat_quran.git
+<span class="command">cd</span> albitaqat_quran
+
+<span class="comment"># أو حمّل كـ ZIP</span>
+<span class="command">wget</span> https://github.com/rn0x/albitaqat_quran/archive/refs/heads/main.zip
+<span class="command">unzip</span> main.zip</code></pre>
+        </div>
+      </div>
+      
+      <div class="clone-card" style="margin-top: 1rem;">
+        <div class="clone-header">
+          <span class="material-symbols-rounded">check_circle</span>
+          <h4 data-i18n="clone.step2">2. تحقق من الملفات</h4>
+        </div>
+        <div class="code-block">
+          <pre><code><span class="comment"># هيكل المشروع</span>
+albitaqat_quran/
+├── data/                    <span class="comment"># ملفات JSON (بيانات السور)</span>
+├── api/                     <span class="comment"># Node.js API (Hono + Docker)</span>
+├── web/                     <span class="comment"># الموقع الثابت</span>
+├── scripts/                 <span class="comment"># سكريبتات Python</span>
+└── src/                     <span class="comment"># كود Python</span></code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Data Files Section -->
+  <section class="section" id="data">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">
+          <span class="material-symbols-rounded">folder_open</span>
+          <span data-i18n="data.title">ملفات البيانات</span>
+        </div>
         <h2 data-i18n="data.title">ملفات البيانات</h2>
         <p data-i18n="data.subtitle">حمّل البيانات بصيغة JSON لاستخدامها في مشاريعك</p>
       </div>
@@ -183,6 +272,7 @@
             <tr>
               <th data-i18n="data.filename">اسم الملف</th>
               <th data-i18n="data.size">الحجم</th>
+              <th data-i18n="data.downloads_count">التحميلات</th>
               <th data-i18n="data.description">الوصف</th>
               <th data-i18n="data.download">تحميل</th>
             </tr>
@@ -191,173 +281,354 @@
             <tr>
               <td class="file-name">quran_cards.json</td>
               <td class="file-size">500 KB</td>
+              <td><span class="download-count" id="dl-quran_cards"><span class="material-symbols-rounded">download</span> <span>-</span></span></td>
               <td data-i18n="data.cards_original">البيانات الأصلية المكشطة من الموقع</td>
-              <td><a href="https://github.com/rn0x/albitaqat_quran/releases/download/v1.0.0/quran_cards.json" class="btn btn-sm btn-primary" target="_blank">📥</a></td>
+              <td><a href="https://github.com/rn0x/albitaqat_quran/releases/download/v1.0.0/quran_cards.json" class="btn btn-sm btn-primary" target="_blank"><span class="material-symbols-rounded">download</span></a></td>
             </tr>
             <tr>
               <td class="file-name">quran_cards_full.json</td>
               <td class="file-size">107 KB</td>
+              <td><span class="download-count" id="dl-quran_cards_full"><span class="material-symbols-rounded">download</span> <span>-</span></span></td>
               <td data-i18n="data.cards_full">البيانات الشاملة مع روابط الصوت و PDF و يوتيوب</td>
-              <td><a href="https://github.com/rn0x/albitaqat_quran/releases/download/v1.0.0/quran_cards_full.json" class="btn btn-sm btn-primary" target="_blank">📥</a></td>
+              <td><a href="https://github.com/rn0x/albitaqat_quran/releases/download/v1.0.0/quran_cards_full.json" class="btn btn-sm btn-primary" target="_blank"><span class="material-symbols-rounded">download</span></a></td>
             </tr>
             <tr>
               <td class="file-name">audio_links.json</td>
               <td class="file-size">27 KB</td>
+              <td><span class="download-count" id="dl-audio_links"><span class="material-symbols-rounded">download</span> <span>-</span></span></td>
               <td data-i18n="data.audio_links">روابط تحميل الصوت (114 ملف MP3)</td>
-              <td><a href="https://github.com/rn0x/albitaqat_quran/releases/download/v1.0.0/audio_links.json" class="btn btn-sm btn-primary" target="_blank">📥</a></td>
+              <td><a href="https://github.com/rn0x/albitaqat_quran/releases/download/v1.0.0/audio_links.json" class="btn btn-sm btn-primary" target="_blank"><span class="material-symbols-rounded">download</span></a></td>
             </tr>
             <tr>
               <td class="file-name">pdf_links.json</td>
               <td class="file-size">30 KB</td>
+              <td><span class="download-count" id="dl-pdf_links"><span class="material-symbols-rounded">download</span> <span>-</span></span></td>
               <td data-i18n="data.pdf_links">روابط تحميل البطاقات بصيغة PDF</td>
-              <td><a href="https://github.com/rn0x/albitaqat_quran/releases/download/v1.0.0/pdf_links.json" class="btn btn-sm btn-primary" target="_blank">📥</a></td>
+              <td><a href="https://github.com/rn0x/albitaqat_quran/releases/download/v1.0.0/pdf_links.json" class="btn btn-sm btn-primary" target="_blank"><span class="material-symbols-rounded">download</span></a></td>
             </tr>
             <tr>
               <td class="file-name">youtube_videos.json</td>
               <td class="file-size">43 KB</td>
+              <td><span class="download-count" id="dl-youtube_videos"><span class="material-symbols-rounded">download</span> <span>-</span></span></td>
               <td data-i18n="data.youtube_links">فيديوهات شرح البطاقات من يوتيوب (140+)</td>
-              <td><a href="https://github.com/rn0x/albitaqat_quran/releases/download/v1.0.0/youtube_videos.json" class="btn btn-sm btn-primary" target="_blank">📥</a></td>
+              <td><a href="https://github.com/rn0x/albitaqat_quran/releases/download/v1.0.0/youtube_videos.json" class="btn btn-sm btn-primary" target="_blank"><span class="material-symbols-rounded">download</span></a></td>
             </tr>
           </tbody>
         </table>
       </div>
       
       <div class="text-center mt-4">
-        <a href="https://github.com/rn0x/albitaqat_quran/releases" class="btn btn-primary" target="_blank">
-          📦 <span data-i18n="data.download_all">تحميل جميع الملفات من GitHub Releases</span>
+        <a href="https://github.com/rn0x/albitaqat_quran/releases" class="btn btn-primary btn-lg" target="_blank">
+          <span class="material-symbols-rounded">inventory_2</span>
+          <span data-i18n="data.download_all">تحميل جميع الملفات من GitHub Releases</span>
         </a>
       </div>
     </div>
   </section>
 
   <!-- Quick Start Section -->
-  <section class="section" id="quickstart">
+  <section class="section section-alt" id="quickstart">
     <div class="container">
       <div class="section-header">
+        <div class="section-badge">
+          <span class="material-symbols-rounded">rocket_launch</span>
+          <span data-i18n="quickstart.title">البدء السريع</span>
+        </div>
         <h2 data-i18n="quickstart.title">البدء السريع</h2>
         <p data-i18n="quickstart.subtitle">ابدأ باستخدام البيانات في دقائق</p>
       </div>
       
       <div class="quickstart-tabs">
-        <button class="quickstart-tab active" data-tab="python" data-i18n="quickstart.python">Python</button>
-        <button class="quickstart-tab" data-tab="nodejs" data-i18n="quickstart.nodejs">Node.js</button>
-        <button class="quickstart-tab" data-tab="docker" data-i18n="quickstart.docker">Docker</button>
-        <button class="quickstart-tab" data-tab="api" data-i18n="quickstart.api">API</button>
+        <button class="quickstart-tab active" data-tab="python">
+          <span class="material-symbols-rounded">code</span>
+          Python
+        </button>
+        <button class="quickstart-tab" data-tab="nodejs">
+          <span class="material-symbols-rounded">javascript</span>
+          Node.js
+        </button>
+        <button class="quickstart-tab" data-tab="docker">
+          <span class="material-symbols-rounded">deployed_code</span>
+          Docker
+        </button>
+        <button class="quickstart-tab" data-tab="api">
+          <span class="material-symbols-rounded">api</span>
+          API
+        </button>
       </div>
       
       <!-- Python Tab -->
       <div class="quickstart-content" id="python" style="display: block;">
         <div class="code-block">
-          <button class="copy-btn" data-i18n="quickstart.copy">نسخ</button>
-          <pre><code><span style="color: #6A9955;"># تحميل البيانات عبر Python</span>
-pip install -r src/requirements.txt
+          <button class="copy-btn"><span class="material-symbols-rounded">content_copy</span> <span data-i18n="quickstart.copy">نسخ</span></button>
+          <pre><code><span class="comment"># تثبيت المتطلبات</span>
+<span class="command">pip install</span> -r src/requirements.txt
 
-<span style="color: #6A9955;"># تحميل جميع الملفات</span>
-python src/downloader.py --mode full
+<span class="comment"># تحميل جميع الملفات (صوت + PDF)</span>
+<span class="command">python</span> src/downloader.py --mode full
 
-<span style="color: #6A9955;"># تحميل الصوت فقط</span>
-python src/downloader.py --mode audio
+<span class="comment"># تحميل الصوت فقط</span>
+<span class="command">python</span> src/downloader.py --mode audio
 
-<span style="color: #6A9955;"># تحميل PDF فقط</span>
-python src/downloader.py --mode pdf
+<span class="comment"># تحميل PDF فقط</span>
+<span class="command">python</span> src/downloader.py --mode pdf
 
-<span style="color: #6A9955;"># التحقق من الملفات</span>
-python src/downloader.py --mode verify</code></pre>
+<span class="comment"># تحميل فيديوهات يوتيوب</span>
+<span class="command">python</span> src/downloader.py --mode youtube
+
+<span class="comment"># التحقق من الملفات</span>
+<span class="command">python</span> src/downloader.py --mode verify</code></pre>
         </div>
       </div>
       
       <!-- Node.js Tab -->
       <div class="quickstart-content" id="nodejs" style="display: none;">
         <div class="code-block">
-          <button class="copy-btn" data-i18n="quickstart.copy">نسخ</button>
-          <pre><code><span style="color: #6A9955;"># تشغيل API محلياً</span>
-cd api
-npm install
-npm run dev
+          <button class="copy-btn"><span class="material-symbols-rounded">content_copy</span> <span data-i18n="quickstart.copy">نسخ</span></button>
+          <pre><code><span class="comment"># الذهاب لمجلد API</span>
+<span class="command">cd</span> api
 
-<span style="color: #6A9955;"># الاختبار</span>
-npm test
+<span class="comment"># تثبيت التبعيات</span>
+<span class="command">npm install</span>
 
-<span style="color: #6A9955;"># بناء للإنتاج</span>
-npm start</code></pre>
+<span class="comment"># تشغيل في وضع التطوير</span>
+<span class="command">npm run dev</span>
+
+<span class="comment"># اختبار API</span>
+<span class="command">npm test</span>
+
+<span class="comment"># تشغيل الإنتاج</span>
+<span class="command">npm start</span></code></pre>
         </div>
       </div>
       
       <!-- Docker Tab -->
       <div class="quickstart-content" id="docker" style="display: none;">
         <div class="code-block">
-          <button class="copy-btn" data-i18n="quickstart.copy">نسخ</button>
-          <pre><code><span style="color: #6A9955;"># بناء وتشغيل Docker</span>
-docker build -t albitaqat-api -f api/Dockerfile .
-docker run -p 3000:3000 albitaqat-api
+          <button class="copy-btn"><span class="material-symbols-rounded">content_copy</span> <span data-i18n="quickstart.copy">نسخ</span></button>
+          <pre><code><span class="comment"># بناء الصورة</span>
+<span class="command">docker build</span> -t albitaqat-api -f api/Dockerfile .
 
-<span style="color: #6A9955;"># أو عبر docker-compose</span>
-cd api
-docker compose up -d --build
+<span class="comment"># تشغيل الحاوية</span>
+<span class="command">docker run</span> -p 3000:3000 albitaqat-api
 
-<span style="color: #6A9955;"># عرض السجلات</span>
-docker compose logs -f</code></pre>
+<span class="comment"># أو عبر docker-compose</span>
+<span class="command">cd</span> api
+<span class="command">docker compose</span> up -d --build
+
+<span class="comment"># عرض السجلات</span>
+<span class="command">docker compose</span> logs -f
+
+<span class="comment"># إيقاف</span>
+<span class="command">docker compose</span> down</code></pre>
         </div>
       </div>
       
       <!-- API Tab -->
       <div class="quickstart-content" id="api" style="display: none;">
         <div class="code-block">
-          <button class="copy-btn" data-i18n="quickstart.copy">نسخ</button>
-          <pre><code><span style="color: #6A9955;"># استدعاء API</span>
-curl http://localhost:3000/api/surahs
+          <button class="copy-btn"><span class="material-symbols-rounded">content_copy</span> <span data-i18n="quickstart.copy">نسخ</span></button>
+          <pre><code><span class="comment"># جميع السور</span>
+<span class="command">curl</span> http://localhost:3000/api/surahs
 
-<span style="color: #6A9955;"># سورة محددة</span>
-curl http://localhost:3000/api/surahs/1
+<span class="comment"># سورة محددة</span>
+<span class="command">curl</span> http://localhost:3000/api/surahs/1
 
-<span style="color: #6A9955;"># البحث</span>
-curl "http://localhost:3000/api/surahs/search?q=بقرة"
+<span class="comment"># بحث عن سورة</span>
+<span class="command">curl</span> "http://localhost:3000/api/surahs/search?q=بقرة"
 
-<span style="color: #6A9955;"># إحصائيات</span>
-curl http://localhost:3000/api/stats</code></pre>
+<span class="comment"># روابط الصوت</span>
+<span class="command">curl</span> http://localhost:3000/api/audio
+
+<span class="comment"># إحصائيات</span>
+<span class="command">curl</span> http://localhost:3000/api/stats</code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Examples Section -->
+  <section class="section" id="examples">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">
+          <span class="material-symbols-rounded">lightbulb</span>
+          <span data-i18n="examples.title">أمثلة الاستخدام</span>
+        </div>
+        <h2 data-i18n="examples.title">أمثلة الاستخدام</h2>
+        <p data-i18n="examples.subtitle">كيف تستخدم البيانات في مشاريعك</p>
+      </div>
+      
+      <div class="examples-grid">
+        <!-- Python Example -->
+        <div class="card example-card">
+          <div class="example-header">
+            <div class="example-icon">
+              <span class="material-symbols-rounded">code</span>
+            </div>
+            <h4>Python</h4>
+          </div>
+          <div class="code-block">
+            <button class="copy-btn"><span class="material-symbols-rounded">content_copy</span></button>
+            <pre><code><span class="keyword">import</span> json
+
+<span class="comment"># قراءة بيانات السور</span>
+<span class="keyword">with</span> <span class="command">open</span>(<span class="string">'data/quran_cards_full.json'</span>) <span class="keyword">as</span> f:
+    data = json.<span class="command">load</span>(f)
+
+<span class="comment"># عرض جميع السور</span>
+<span class="keyword">for</span> surah <span class="keyword">in</span> data[<span class="string">'surahs'</span>]:
+    <span class="command">print</span>(<span class="string">f"</span>{surah[<span class="string">'number'</span>]} - {surah[<span class="string">'name_arabic'</span>]}<span class="string">"</span>)
+
+<span class="comment"># البحث عن سورة</span>
+baqarah = <span class="command">next</span>(
+    s <span class="keyword">for</span> s <span class="keyword">in</span> data[<span class="string">'surahs'</span>]
+    <span class="keyword">if</span> s[<span class="string">'number'</span>] == 2
+)
+<span class="command">print</span>(baqarah[<span class="string">'downloads'</span>][<span class="string">'audio'</span>][<span class="string">'url'</span>])</code></pre>
+          </div>
+        </div>
+        
+        <!-- Node.js Example -->
+        <div class="card example-card">
+          <div class="example-header">
+            <div class="example-icon">
+              <span class="material-symbols-rounded">javascript</span>
+            </div>
+            <h4>Node.js</h4>
+          </div>
+          <div class="code-block">
+            <button class="copy-btn"><span class="material-symbols-rounded">content_copy</span></button>
+            <pre><code><span class="keyword">const</span> fs = <span class="command">require</span>(<span class="string">'fs'</span>);
+
+<span class="comment">// قراءة بيانات السور</span>
+<span class="keyword">const</span> data = JSON.<span class="command">parse</span>(
+  fs.<span class="command">readFileSync</span>(<span class="string">'data/quran_cards_full.json'</span>)
+);
+
+<span class="comment">// عرض جميع السور</span>
+data.surahs.<span class="command">forEach</span>(surah => {
+  console.<span class="command">log</span>(<span class="string">`</span>${surah.number} - ${surah.name_arabic}<span class="string">`</span>);
+});
+
+<span class="comment">// جلب سورة عبر API</span>
+<span class="keyword">const</span> res = <span class="keyword">await</span> <span class="command">fetch</span>(<span class="string">'http://localhost:3000/api/surahs/1'</span>);
+<span class="keyword">const</span> surah = <span class="keyword">await</span> res.<span class="command">json</span>();
+console.<span class="command">log</span>(surah.data.name_english);</code></pre>
+          </div>
+        </div>
+        
+        <!-- cURL Example -->
+        <div class="card example-card">
+          <div class="example-header">
+            <div class="example-icon">
+              <span class="material-symbols-rounded">terminal</span>
+            </div>
+            <h4>cURL</h4>
+          </div>
+          <div class="code-block">
+            <button class="copy-btn"><span class="material-symbols-rounded">content_copy</span></button>
+            <pre><code><span class="comment"># جلب جميع السور</span>
+<span class="command">curl</span> http://localhost:3000/api/surahs
+
+<span class="comment"># جلب سورة الفاتحة</span>
+<span class="command">curl</span> http://localhost:3000/api/surahs/1
+
+<span class="comment"># بحث عن سورة</span>
+<span class="command">curl</span> <span class="string">"http://localhost:3000/api/surahs/search?q=رعد"</span>
+
+<span class="comment"># جلب روابط الصوت</span>
+<span class="command">curl</span> http://localhost:3000/api/audio/1
+
+<span class="comment"># جلب فيديوهات يوتيوب</span>
+<span class="command">curl</span> http://localhost:3000/api/youtube/1
+
+<span class="comment"># إحصائيات المشروع</span>
+<span class="command">curl</span> http://localhost:3000/api/stats</code></pre>
+          </div>
+        </div>
+        
+        <!-- Browser JS Example -->
+        <div class="card example-card">
+          <div class="example-header">
+            <div class="example-icon">
+              <span class="material-symbols-rounded">language</span>
+            </div>
+            <h4>JavaScript (Browser)</h4>
+          </div>
+          <div class="code-block">
+            <button class="copy-btn"><span class="material-symbols-rounded">content_copy</span></button>
+            <pre><code><span class="comment">// جلب البيانات من API</span>
+<span class="keyword">const</span> response = <span class="keyword">await</span> <span class="command">fetch</span>(
+  <span class="string">'http://localhost:3000/api/surahs'</span>
+);
+<span class="keyword">const</span> { data } = <span class="keyword">await</span> response.<span class="command">json</span>();
+
+<span class="comment">// عرض السور في الصفحة</span>
+<span class="keyword">const</span> list = document.<span class="command">getElementById</span>(<span class="string">'surahs'</span>);
+data.<span class="command">forEach</span>(surah => {
+  list.innerHTML += <span class="string">`
+    &lt;div class="surah-card"&gt;
+      &lt;h3&gt;</span>${surah.name_arabic}<span class="string">&lt;/h3&gt;
+      &lt;p&gt;</span>${surah.name_english}<span class="string">&lt;/p&gt;
+      &lt;a href="</span>${surah.downloads.audio.url}<span class="string">"&gt;
+        استمع
+      &lt;/a&gt;
+    &lt;/div&gt;
+  `</span>;
+});</code></pre>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- API Preview Section -->
-  <section class="section section-alt" id="api">
+  <section class="section section-alt api-section" id="api">
     <div class="container">
       <div class="section-header">
+        <div class="section-badge">
+          <span class="material-symbols-rounded">api</span>
+          <span data-i18n="api.title">واجهة برمجة التطبيقات</span>
+        </div>
         <h2 data-i18n="api.title">واجهة برمجة التطبيقات</h2>
         <p data-i18n="api.subtitle">API مجاني للوصول لبيانات البطاقات</p>
       </div>
       
       <div class="api-preview">
-        <div class="api-endpoint">
-          <div class="mb-2">
+        <div class="card api-endpoint">
+          <div class="api-method-badge">
             <span class="api-method">GET</span>
             <span class="api-path">/api/surahs/:number</span>
           </div>
           <p class="mb-2">الحصول على سورة برقمها</p>
-          <a href="http://localhost:3000/api/surahs/1" class="btn btn-sm btn-primary" target="_blank" data-i18n="api.try_it">جرّب الآن</a>
-          <a href="api/docs/API.md" class="btn btn-sm btn-secondary" target="_blank" data-i18n="api.docs">التوثيق الكامل</a>
+          <div class="api-actions">
+            <a href="http://localhost:3000/api/surahs/1" class="btn btn-sm btn-primary" target="_blank">
+              <span class="material-symbols-rounded">play_arrow</span>
+              <span data-i18n="api.try_it">جرّب الآن</span>
+            </a>
+            <a href="https://github.com/rn0x/albitaqat_quran/blob/main/api/docs/API.md" class="btn btn-sm btn-ghost" target="_blank">
+              <span class="material-symbols-rounded">description</span>
+              <span data-i18n="api.docs">التوثيق الكامل</span>
+            </a>
+          </div>
         </div>
         
-        <div class="api-endpoint">
+        <div class="card api-endpoint">
           <h4 class="mb-2" data-i18n="api.response">استجابة API</h4>
           <div class="code-block">
             <pre><code>{
-  "success": true,
-  "data": {
-    "number": 1,
-    "name_arabic": "الفاتحة",
-    "name_english": "Al-Fatihah",
-    "ayahs_count": 7,
-    "revelation_type": "مكية",
-    "downloads": {
-      "audio": {
-        "filename": "001_Al-Fatihah.mp3",
-        "url": "https://archive.org/..."
-      },
-      "pdf": {
-        "filename": "AlBitaqat-Book-ar_001.pdf",
-        "url": "https://archive.org/..."
+  <span class="string">"success"</span>: <span class="keyword">true</span>,
+  <span class="string">"data"</span>: {
+    <span class="string">"number"</span>: 1,
+    <span class="string">"name_arabic"</span>: <span class="string">"الفاتحة"</span>,
+    <span class="string">"name_english"</span>: <span class="string">"Al-Fatihah"</span>,
+    <span class="string">"ayahs_count"</span>: 7,
+    <span class="string">"revelation_type"</span>: <span class="string">"مكية"</span>,
+    <span class="string">"downloads"</span>: {
+      <span class="string">"audio"</span>: {
+        <span class="string">"filename"</span>: <span class="string">"001_Al-Fatihah.mp3"</span>,
+        <span class="string">"url"</span>: <span class="string">"https://archive.org/..."</span>
       }
     }
   }
@@ -372,33 +643,37 @@ curl http://localhost:3000/api/stats</code></pre>
   <section class="section" id="docker">
     <div class="container">
       <div class="section-header">
+        <div class="section-badge">
+          <span class="material-symbols-rounded">deployed_code</span>
+          <span data-i18n="docker.title">Docker</span>
+        </div>
         <h2 data-i18n="docker.title">Docker</h2>
         <p data-i18n="docker.subtitle">شغّل API مع جميع البيانات في ثوانٍ</p>
       </div>
       
-      <div class="docker-features">
-        <div class="docker-feature">
-          <div class="docker-feature-icon">⬇️</div>
-          <div>
-            <h4 data-i18n="docker.auto_download">تحميل تلقائي</h4>
-            <p data-i18n="docker.auto_download_desc">يحمل جميع ملفات الصوت و PDF تلقائياً عند التشغيل</p>
+      <div class="docker-grid">
+        <div class="card docker-feature">
+          <div class="docker-feature-icon">
+            <span class="material-symbols-rounded">cloud_download</span>
           </div>
+          <h4 data-i18n="docker.auto_download">تحميل تلقائي</h4>
+          <p data-i18n="docker.auto_download_desc">يحمل جميع ملفات الصوت و PDF تلقائياً عند التشغيل</p>
         </div>
         
-        <div class="docker-feature">
-          <div class="docker-feature-icon">💾</div>
-          <div>
-            <h4 data-i18n="docker.persistent">بيانات محفوظة</h4>
-            <p data-i18n="docker.persistent_desc">تُحفظ البيانات في Docker Volume ولا تضيع</p>
+        <div class="card docker-feature">
+          <div class="docker-feature-icon">
+            <span class="material-symbols-rounded">save</span>
           </div>
+          <h4 data-i18n="docker.persistent">بيانات محفوظة</h4>
+          <p data-i18n="docker.persistent_desc">تُحفظ البيانات في Docker Volume ولا تضيع</p>
         </div>
         
-        <div class="docker-feature">
-          <div class="docker-feature-icon">🚀</div>
-          <div>
-            <h4 data-i18n="docker.production">جاهز للإنتاج</h4>
-            <p data-i18n="docker.production_desc">مبني لأداء عالٍ مع Rate Limiting و Logging</p>
+        <div class="card docker-feature">
+          <div class="docker-feature-icon">
+            <span class="material-symbols-rounded">speed</span>
           </div>
+          <h4 data-i18n="docker.production">جاهز للإنتاج</h4>
+          <p data-i18n="docker.production_desc">مبني لأداء عالٍ مع Rate Limiting و Logging</p>
         </div>
       </div>
     </div>
@@ -413,35 +688,46 @@ curl http://localhost:3000/api/stats</code></pre>
             <img src="assets/logo.svg" alt="بطاقات القرآن الكريم">
             <span data-i18n="hero.title">بطاقات القرآن الكريم</span>
           </div>
-          <p data-i18n="footer.description">مشروع وقفي عالمي يهدف إلى خدمة القرآن الكريم وحفّاظِهِ وقارئيه.</p>
+          <p class="footer-description" data-i18n="footer.description">مشروع وقفي عالمي يهدف إلى خدمة القرآن الكريم وحفّاظِهِ وقارئيه.</p>
           <div class="footer-social">
-            <a href="https://www.youtube.com/@albitaqat" target="_blank" title="YouTube">📺</a>
-            <a href="https://www.facebook.com/Albitaqat" target="_blank" title="Facebook">📘</a>
-            <a href="https://t.me/albitaqatt" target="_blank" title="Telegram">✈️</a>
-            <a href="https://twitter.com/albitaqat" target="_blank" title="Twitter">🐦</a>
-            <a href="https://github.com/rn0x/albitaqat_quran" target="_blank" title="GitHub">💻</a>
+            <a href="https://www.youtube.com/@albitaqat" target="_blank" title="YouTube">
+              <span class="material-symbols-rounded">play_circle</span>
+            </a>
+            <a href="https://www.facebook.com/Albitaqat" target="_blank" title="Facebook">
+              <span class="material-symbols-rounded">group</span>
+            </a>
+            <a href="https://t.me/albitaqatt" target="_blank" title="Telegram">
+              <span class="material-symbols-rounded">send</span>
+            </a>
+            <a href="https://twitter.com/albitaqat" target="_blank" title="Twitter">
+              <span class="material-symbols-rounded">tag</span>
+            </a>
+            <a href="https://github.com/rn0x/albitaqat_quran" target="_blank" title="GitHub">
+              <span class="material-symbols-rounded">code</span>
+            </a>
           </div>
         </div>
         
         <div class="footer-links">
           <h5 data-i18n="footer.links">روابط سريعة</h5>
           <ul>
-            <li><a href="#about" data-i18n="about.title">عن المشروع</a></li>
-            <li><a href="#data" data-i18n="data.title">ملفات البيانات</a></li>
-            <li><a href="#quickstart" data-i18n="quickstart.title">البدء السريع</a></li>
-            <li><a href="#api" data-i18n="api.title">API</a></li>
-            <li><a href="surahs.html" data-i18n="nav.surahs">السور</a></li>
+            <li><a href="#about"><span class="material-symbols-rounded">info</span> <span data-i18n="about.title">عن المشروع</span></a></li>
+            <li><a href="#data"><span class="material-symbols-rounded">folder_open</span> <span data-i18n="data.title">ملفات البيانات</span></a></li>
+            <li><a href="#quickstart"><span class="material-symbols-rounded">rocket_launch</span> <span data-i18n="quickstart.title">البدء السريع</span></a></li>
+            <li><a href="#examples"><span class="material-symbols-rounded">lightbulb</span> <span data-i18n="examples.title">أمثلة الاستخدام</span></a></li>
+            <li><a href="#api"><span class="material-symbols-rounded">api</span> <span data-i18n="api.title">API</span></a></li>
+            <li><a href="surahs.html"><span class="material-symbols-rounded">menu_book</span> <span data-i18n="nav.surahs">السور</span></a></li>
           </ul>
         </div>
         
         <div class="footer-links">
           <h5 data-i18n="footer.official">الروابط الرسمية</h5>
           <ul>
-            <li><a href="https://albitaqat.com/" target="_blank">الموقع الرسمي</a></li>
-            <li><a href="https://www.youtube.com/@albitaqat" target="_blank">يوتيوب</a></li>
-            <li><a href="https://www.facebook.com/Albitaqat" target="_blank">فيسبوك</a></li>
-            <li><a href="https://t.me/albitaqatt" target="_blank">تليجرام</a></li>
-            <li><a href="https://twitter.com/albitaqat" target="_blank">تويتر</a></li>
+            <li><a href="https://albitaqat.com/" target="_blank"><span class="material-symbols-rounded">language</span> الموقع الرسمي</a></li>
+            <li><a href="https://www.youtube.com/@albitaqat" target="_blank"><span class="material-symbols-rounded">play_circle</span> يوتيوب</a></li>
+            <li><a href="https://www.facebook.com/Albitaqat" target="_blank"><span class="material-symbols-rounded">group</span> فيسبوك</a></li>
+            <li><a href="https://t.me/albitaqatt" target="_blank"><span class="material-symbols-rounded">send</span> تليجرام</a></li>
+            <li><a href="https://twitter.com/albitaqat" target="_blank"><span class="material-symbols-rounded">tag</span> تويتر</a></li>
           </ul>
         </div>
       </div>
@@ -456,5 +742,6 @@ curl http://localhost:3000/api/stats</code></pre>
   <!-- Scripts -->
   <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/downloads.js"></script>
 </body>
 </html>

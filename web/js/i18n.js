@@ -44,12 +44,21 @@ const translations = {
       description: "برنامج عملي مصاحب لقراءة القرآن الكريم وحفظه، يوفر مَتْنٍ مختصرٍ شاملٍ لسور القرآن مسموعاً ومقروءاً."
     },
     
+    // Clone Section
+    clone: {
+      title: "تحميل المشروع",
+      subtitle: "استنسخ المستودع وابدأ خلال دقائق",
+      step1: "1. استنسخ المستودع",
+      step2: "2. تحقق من الملفات"
+    },
+    
     // Data Files
     data: {
       title: "ملفات البيانات",
       subtitle: "حمّل البيانات بصيغة JSON لاستخدامها في مشاريعك",
       filename: "اسم الملف",
       size: "الحجم",
+      downloads_count: "التحميلات",
       description: "الوصف",
       download: "تحميل",
       cards_original: "البيانات الأصلية المكشطة من الموقع",
@@ -58,6 +67,12 @@ const translations = {
       pdf_links: "روابط تحميل البطاقات بصيغة PDF",
       youtube_links: "فيديوهات شرح البطاقات من يوتيوب (140+)",
       download_all: "تحميل جميع الملفات من GitHub Releases"
+    },
+    
+    // Examples
+    examples: {
+      title: "أمثلة الاستخدام",
+      subtitle: "كيف تستخدم البيانات في مشاريعك"
     },
     
     // Quick Start
@@ -163,12 +178,21 @@ const translations = {
       description: "A practical program accompanying Quran reading and memorization, providing a concise comprehensive text for all Quran surahs, available as audio and readable content."
     },
     
+    // Clone Section
+    clone: {
+      title: "Clone Project",
+      subtitle: "Clone the repository and start in minutes",
+      step1: "1. Clone the Repository",
+      step2: "2. Verify the Files"
+    },
+    
     // Data Files
     data: {
       title: "Data Files",
       subtitle: "Download the data in JSON format for your projects",
       filename: "Filename",
       size: "Size",
+      downloads_count: "Downloads",
       description: "Description",
       download: "Download",
       cards_original: "Original scraped data from the website",
@@ -177,6 +201,12 @@ const translations = {
       pdf_links: "PDF card download links",
       youtube_links: "YouTube tutorial videos (140+)",
       download_all: "Download all files from GitHub Releases"
+    },
+    
+    // Examples
+    examples: {
+      title: "Usage Examples",
+      subtitle: "How to use the data in your projects"
     },
     
     // Quick Start
@@ -295,7 +325,10 @@ class I18n {
     // Update lang toggle button
     const langBtn = document.querySelector('.lang-toggle');
     if (langBtn) {
-      langBtn.innerHTML = this.currentLang === 'ar' ? '🌐 EN' : '🌐 AR';
+      const textSpan = langBtn.querySelector('span:last-child');
+      if (textSpan) {
+        textSpan.textContent = this.currentLang === 'ar' ? 'EN' : 'AR';
+      }
     }
     
     // Update active nav link

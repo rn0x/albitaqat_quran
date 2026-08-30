@@ -1,5 +1,6 @@
 /* ========================================
    Main JavaScript - Al-Bitaqat Quran
+   Version: 2.0 - Enhanced
    ======================================== */
 
 // DOM Ready
@@ -9,7 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
   initQuickstartTabs();
   initCopyButtons();
   initSmoothScroll();
-  initScrollAnimation();
+  initScrollReveal();
+  initNavbarScroll();
 });
 
 // Mobile Menu Toggle
@@ -20,14 +22,16 @@ function initMobileMenu() {
   if (menuBtn && navMenu) {
     menuBtn.addEventListener('click', () => {
       navMenu.classList.toggle('active');
-      menuBtn.textContent = navMenu.classList.contains('active') ? '✕' : '☰';
+      const icon = menuBtn.querySelector('.material-symbols-rounded');
+      icon.textContent = navMenu.classList.contains('active') ? 'close' : 'menu';
     });
     
     // Close menu when clicking a link
     navMenu.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', () => {
         navMenu.classList.remove('active');
-        menuBtn.textContent = '☰';
+        const icon = menuBtn.querySelector('.material-symbols-rounded');
+        icon.textContent = 'menu';
       });
     });
   }
@@ -56,9 +60,20 @@ function initQuickstartTabs() {
       tabs.forEach(t => t.classList.remove('active'));
       tab.classList.add('active');
       
-      // Update content
+      // Update content with animation
       contents.forEach(content => {
-        content.style.display = content.id === target ? 'block' : 'none';
+        if (content.id === target) {
+          content.style.display = 'block';
+          content.style.opacity = '0';
+          content.style.transform = 'translateY(10px)';
+          setTimeout(() => {
+            content.style.transition = 'all 0.3s ease';
+            content.style.opacity = '1';
+            content.style.transform = 'translateY(0)';
+          }, 10);
+        } else {
+          content.style.display = 'none';
+        }
       });
     });
   });
@@ -75,10 +90,21 @@ function initCopyButtons() {
       if (code) {
         try {
           await navigator.clipboard.writeText(code);
-          const originalText = btn.textContent;
-          btn.textContent = i18n.t('quickstart.copied');
+          const icon = btn.querySelector('.material-symbols-rounded');
+          const text = btn.querySelector('span:last-child');
+          const originalText = text?.textContent;
+          
+          if (icon) icon.textContent = 'check';
+          if (text) text.textContent = i18n.t('quickstart.copied');
+          
+          btn.style.background = 'var(--green-700)';
+          btn.style.color = 'var(--white)';
+          
           setTimeout(() => {
-            btn.textContent = originalText;
+            if (icon) icon.textContent = 'content_copy';
+            if (text) text.textContent = originalText || i18n.t('quickstart.copy');
+            btn.style.background = '';
+            btn.style.color = '';
           }, 2000);
         } catch (err) {
           console.error('Failed to copy:', err);
@@ -93,19 +119,25 @@ function initSmoothScroll() {
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
       e.preventDefault();
-      const target = document.querySelector(this.getAttribute('href'));
+      const targetId = this.getAttribute('href');
+      if (targetId === '#') return;
+      
+      const target = document.querySelector(targetId);
       if (target) {
-        target.scrollIntoView({
-          behavior: 'smooth',
-          block: 'start'
+        const offset = 80; // Account for fixed navbar
+        const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - offset;
+        
+        window.scrollTo({
+          top: targetPosition,
+          behavior: 'smooth'
         });
       }
     });
   });
 }
 
-// Scroll Animation
-function initScrollAnimation() {
+// Scroll Reveal Animation
+function initScrollReveal() {
   const observerOptions = {
     threshold: 0.1,
     rootMargin: '0px 0px -50px 0px'
@@ -114,15 +146,43 @@ function initScrollAnimation() {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        entry.target.classList.add('animate-fade-in');
+        entry.target.classList.add('active');
+        // Stagger animation for grid items
+        const children = entry.target.querySelectorAll('.card, .stat-card, .docker-feature, .example-card');
+        children.forEach((child, index) => {
+          child.style.animationDelay = `${index * 0.1}s`;
+          child.classList.add('animate-fade-in');
+        });
         observer.unobserve(entry.target);
       }
     });
   }, observerOptions);
   
-  document.querySelectorAll('.section').forEach(section => {
-    observer.observe(section);
+  // Add reveal class to sections
+  document.querySelectorAll('.section-header, .about-grid, .stats-grid, .docker-grid, .examples-grid, .api-preview').forEach(el => {
+    el.classList.add('reveal');
+    observer.observe(el);
   });
+}
+
+// Navbar Scroll Effect
+function initNavbarScroll() {
+  const navbar = document.getElementById('navbar');
+  if (!navbar) return;
+  
+  let lastScroll = 0;
+  
+  window.addEventListener('scroll', () => {
+    const currentScroll = window.pageYOffset;
+    
+    if (currentScroll > 50) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+    
+    lastScroll = currentScroll;
+  }, { passive: true });
 }
 
 // Surahs Page Functions
@@ -160,8 +220,8 @@ function initSurahsPage() {
     }
     
     // Render
-    tableBody.innerHTML = filtered.map(surah => `
-      <tr>
+    tableBody.innerHTML = filtered.map((surah, index) => `
+      <tr style="animation: fadeInUp 0.3s ease ${index * 0.02}s forwards; opacity: 0;">
         <td class="surah-number">${surah.number}</td>
         <td class="surah-arabic">${surah.name_arabic}</td>
         <td class="surah-name">${surah.name_english}</td>
@@ -175,17 +235,17 @@ function initSurahsPage() {
           <div class="surah-links">
             ${surah.downloads?.audio?.url ? `
               <a href="${surah.downloads.audio.url}" target="_blank" title="${i18n.t('surahs.audio')}" download>
-                🔊
+                <span class="material-symbols-rounded">headphones</span>
               </a>
             ` : ''}
             ${surah.downloads?.pdf?.url ? `
               <a href="${surah.downloads.pdf.url}" target="_blank" title="${i18n.t('surahs.pdf')}" download>
-                📄
+                <span class="material-symbols-rounded">picture_as_pdf</span>
               </a>
             ` : ''}
             ${surah.downloads?.youtube_video?.url ? `
               <a href="${surah.downloads.youtube_video.url}" target="_blank" title="${i18n.t('surahs.youtube')}">
-                🎬
+                <span class="material-symbols-rounded">play_circle</span>
               </a>
             ` : ''}
           </div>
