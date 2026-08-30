@@ -1,0 +1,14 @@
+node_modules
+npm-debug.log
+.env
+.env.local
+api/node_modules
+api/dist
+tests
+docs
+*.md
+.git
+.gitignore
+__pycache__
+*.pyc
+quran_data

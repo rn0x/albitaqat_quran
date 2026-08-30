@@ -1,0 +1,22 @@
+{
+  "name": "albitaqat-api",
+  "version": "1.0.0",
+  "description": "API for Al-Bitaqat Quran Cards Project",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "test": "node --test tests/*.test.js",
+    "download": "node src/lib/storage.js"
+  },
+  "keywords": ["quran", "albitaqat", "api", "hono"],
+  "author": "Al-Bitaqat Project",
+  "license": "MIT",
+  "dependencies": {
+    "hono": "^4.4.0",
+    "@hono/node-server": "^1.11.0",
+    "pino": "^9.0.0",
+    "pino-pretty": "^11.0.0"
+  }
+}

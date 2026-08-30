@@ -1,0 +1,808 @@
+{
+  "type": "audio",
+  "format": "MP3",
+  "source": "https://albitaqat.com/",
+  "archive_collection": "https://archive.org/download/AlBitaqat-Sounds",
+  "bulk_download": "https://archive.org/download/AlBitaqat-Sounds/AlBitaqatAudio.rar",
+  "total_files": 114,
+  "files": [
+    {
+      "surah_number": 1,
+      "surah_name_arabic": "الفاتحة",
+      "surah_name_english": "Al-Fatihah",
+      "filename": "001_Al-Fatihah.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/001_Al-Fatihah.mp3"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_arabic": "البقرة",
+      "surah_name_english": "Al-Baqarah",
+      "filename": "002_Al-Baqarah.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/002_Al-Baqarah.mp3"
+    },
+    {
+      "surah_number": 3,
+      "surah_name_arabic": "آل عمران",
+      "surah_name_english": "Al-Imran",
+      "filename": "003_Al-Imran.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/003_Al-Imran.mp3"
+    },
+    {
+      "surah_number": 4,
+      "surah_name_arabic": "النساء",
+      "surah_name_english": "An-Nisa",
+      "filename": "004_An-Nisa'.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/004_An-Nisa%27.mp3"
+    },
+    {
+      "surah_number": 5,
+      "surah_name_arabic": "المائدة",
+      "surah_name_english": "Al-Maidah",
+      "filename": "005_Al-Ma'idah.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/005_Al-Ma%27idah.mp3"
+    },
+    {
+      "surah_number": 6,
+      "surah_name_arabic": "الأنعام",
+      "surah_name_english": "Al-Anam",
+      "filename": "006_Al-An`Am.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/006_Al-An%60Am.mp3"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_arabic": "الأعراف",
+      "surah_name_english": "Al-Araf",
+      "filename": "007_Al-A`Raf.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/007_Al-A%60Raf.mp3"
+    },
+    {
+      "surah_number": 8,
+      "surah_name_arabic": "الأنفال",
+      "surah_name_english": "Al-Anfal",
+      "filename": "008_Al-Anfal.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/008_Al-Anfal.mp3"
+    },
+    {
+      "surah_number": 9,
+      "surah_name_arabic": "التوبة",
+      "surah_name_english": "At-Tawbah",
+      "filename": "009_At-Taubah.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/009_At-Taubah.mp3"
+    },
+    {
+      "surah_number": 10,
+      "surah_name_arabic": "يونس",
+      "surah_name_english": "Yunus",
+      "filename": "010_Yunus.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/010_Yunus.mp3"
+    },
+    {
+      "surah_number": 11,
+      "surah_name_arabic": "هود",
+      "surah_name_english": "Hud",
+      "filename": "011_Hud.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/011_Hud.mp3"
+    },
+    {
+      "surah_number": 12,
+      "surah_name_arabic": "يوسف",
+      "surah_name_english": "Yusuf",
+      "filename": "012_Yusuf.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/012_Yusuf.mp3"
+    },
+    {
+      "surah_number": 13,
+      "surah_name_arabic": "الرعد",
+      "surah_name_english": "Ar-Rad",
+      "filename": "013_Ar-Ra`D.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/013_Ar-Ra%60D.mp3"
+    },
+    {
+      "surah_number": 14,
+      "surah_name_arabic": "إبراهيم",
+      "surah_name_english": "Ibrahim",
+      "filename": "014_Ibrahim.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/014_Ibrahim.mp3"
+    },
+    {
+      "surah_number": 15,
+      "surah_name_arabic": "الحجر",
+      "surah_name_english": "Al-Hijr",
+      "filename": "015_Al-Hijr.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/015_Al-Hijr.mp3"
+    },
+    {
+      "surah_number": 16,
+      "surah_name_arabic": "النحل",
+      "surah_name_english": "An-Nahl",
+      "filename": "016_An-Nahl.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/016_An-Nahl.mp3"
+    },
+    {
+      "surah_number": 17,
+      "surah_name_arabic": "الإسراء",
+      "surah_name_english": "Al-Isra",
+      "filename": "017_Al-Isra.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/017_Al-Isra.mp3"
+    },
+    {
+      "surah_number": 18,
+      "surah_name_arabic": "الكهف",
+      "surah_name_english": "Al-Kahf",
+      "filename": "018_Al-Kahf.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/018_Al-Kahf.mp3"
+    },
+    {
+      "surah_number": 19,
+      "surah_name_arabic": "مريم",
+      "surah_name_english": "Maryam",
+      "filename": "019_ Maryam.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/019_%20Maryam.mp3"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_arabic": "طه",
+      "surah_name_english": "Taha",
+      "filename": "020_Ta Ha.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/020_Ta%20Ha.mp3"
+    },
+    {
+      "surah_number": 21,
+      "surah_name_arabic": "الأنبياء",
+      "surah_name_english": "Al-Anbiya",
+      "filename": "021_Al-Anbiya'.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/021_Al-Anbiya%27.mp3"
+    },
+    {
+      "surah_number": 22,
+      "surah_name_arabic": "الحج",
+      "surah_name_english": "Al-Hajj",
+      "filename": "022_Al-Hajj.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/022_Al-Hajj.mp3"
+    },
+    {
+      "surah_number": 23,
+      "surah_name_arabic": "المؤمنون",
+      "surah_name_english": "Al-Muminun",
+      "filename": "023_Al-Mu'minun.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/023_Al-Mu%27minun.mp3"
+    },
+    {
+      "surah_number": 24,
+      "surah_name_arabic": "النور",
+      "surah_name_english": "An-Nur",
+      "filename": "024_An-Nur.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/024_An-Nur.mp3"
+    },
+    {
+      "surah_number": 25,
+      "surah_name_arabic": "الفرقان",
+      "surah_name_english": "Al-Furqan",
+      "filename": "025_Al-Furqan.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/025_Al-Furqan.mp3"
+    },
+    {
+      "surah_number": 26,
+      "surah_name_arabic": "الشعراء",
+      "surah_name_english": "Ash-Shuara",
+      "filename": "026_Ash-Shu`Ara'.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/026_Ash-Shu%60Ara%27.mp3"
+    },
+    {
+      "surah_number": 27,
+      "surah_name_arabic": "النمل",
+      "surah_name_english": "An-Naml",
+      "filename": "027_An-Naml.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/027_An-Naml.mp3"
+    },
+    {
+      "surah_number": 28,
+      "surah_name_arabic": "القصص",
+      "surah_name_english": "Al-Qasas",
+      "filename": "028_Al-Qasas.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/028_Al-Qasas.mp3"
+    },
+    {
+      "surah_number": 29,
+      "surah_name_arabic": "العنكبوت",
+      "surah_name_english": "Al-Ankabut",
+      "filename": "029_Al-`Ankabut.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/029_Al-%60Ankabut.mp3"
+    },
+    {
+      "surah_number": 30,
+      "surah_name_arabic": "الروم",
+      "surah_name_english": "Ar-Rum",
+      "filename": "030_Ar-Rum.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/030_Ar-Rum.mp3"
+    },
+    {
+      "surah_number": 31,
+      "surah_name_arabic": "لقمان",
+      "surah_name_english": "Luqman",
+      "filename": "031_Luqman.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/031_Luqman.mp3"
+    },
+    {
+      "surah_number": 32,
+      "surah_name_arabic": "السجدة",
+      "surah_name_english": "As-Sajdah",
+      "filename": "032_As-Sajdah.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/032_As-Sajdah.mp3"
+    },
+    {
+      "surah_number": 33,
+      "surah_name_arabic": "الأحزاب",
+      "surah_name_english": "Al-Ahzab",
+      "filename": "033_Al-Ahzab.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/033_Al-Ahzab.mp3"
+    },
+    {
+      "surah_number": 34,
+      "surah_name_arabic": "سبأ",
+      "surah_name_english": "Saba",
+      "filename": "034_Saba'.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/034_Saba%27.mp3"
+    },
+    {
+      "surah_number": 35,
+      "surah_name_arabic": "فاطر",
+      "surah_name_english": "Fatir",
+      "filename": "035_Fatir.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/035_Fatir.mp3"
+    },
+    {
+      "surah_number": 36,
+      "surah_name_arabic": "يس",
+      "surah_name_english": "Ya-Sin",
+      "filename": "036_YaSin.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/036_YaSin.mp3"
+    },
+    {
+      "surah_number": 37,
+      "surah_name_arabic": "الصافات",
+      "surah_name_english": "As-Saffat",
+      "filename": "037_As-Saffat.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/037_As-Saffat.mp3"
+    },
+    {
+      "surah_number": 38,
+      "surah_name_arabic": "ص",
+      "surah_name_english": "Sad",
+      "filename": "038_Sad.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/038_Sad.mp3"
+    },
+    {
+      "surah_number": 39,
+      "surah_name_arabic": "الزمر",
+      "surah_name_english": "Az-Zumar",
+      "filename": "039_Az-Zumar.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/039_Az-Zumar.mp3"
+    },
+    {
+      "surah_number": 40,
+      "surah_name_arabic": "غافر",
+      "surah_name_english": "Ghafir",
+      "filename": "040_Ghafir.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/040_Ghafir.mp3"
+    },
+    {
+      "surah_number": 41,
+      "surah_name_arabic": "فصلت",
+      "surah_name_english": "Fussilat",
+      "filename": "041_Fussilat.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/041_Fussilat.mp3"
+    },
+    {
+      "surah_number": 42,
+      "surah_name_arabic": "الشورى",
+      "surah_name_english": "Ash-Shura",
+      "filename": "042_Ash-Shura.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/042_Ash-Shura.mp3"
+    },
+    {
+      "surah_number": 43,
+      "surah_name_arabic": "الزخرف",
+      "surah_name_english": "Az-Zukhruf",
+      "filename": "043_Az-Zukhruf.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/043_Az-Zukhruf.mp3"
+    },
+    {
+      "surah_number": 44,
+      "surah_name_arabic": "الدخان",
+      "surah_name_english": "Ad-Dukhan",
+      "filename": "044_Ad-Dukhan.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/044_Ad-Dukhan.mp3"
+    },
+    {
+      "surah_number": 45,
+      "surah_name_arabic": "الجاثية",
+      "surah_name_english": "Al-Jathiyah",
+      "filename": "045_Al-Jathiyah.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/045_Al-Jathiyah.mp3"
+    },
+    {
+      "surah_number": 46,
+      "surah_name_arabic": "الأحقاف",
+      "surah_name_english": "Al-Ahqaf",
+      "filename": "046_Al-Ahqaf.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/046_Al-Ahqaf.mp3"
+    },
+    {
+      "surah_number": 47,
+      "surah_name_arabic": "محمد",
+      "surah_name_english": "Muhammad",
+      "filename": "047_Muhammad.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/047_Muhammad.mp3"
+    },
+    {
+      "surah_number": 48,
+      "surah_name_arabic": "الفتح",
+      "surah_name_english": "Al-Fath",
+      "filename": "048_Al-Fath.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/048_Al-Fath.mp3"
+    },
+    {
+      "surah_number": 49,
+      "surah_name_arabic": "الحجرات",
+      "surah_name_english": "Al-Hujurat",
+      "filename": "049_Al-Hujurat.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/049_Al-Hujurat.mp3"
+    },
+    {
+      "surah_number": 50,
+      "surah_name_arabic": "ق",
+      "surah_name_english": "Qaf",
+      "filename": "050_Qaf.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/050_Qaf.mp3"
+    },
+    {
+      "surah_number": 51,
+      "surah_name_arabic": "الذاريات",
+      "surah_name_english": "Adh-Dhariyat",
+      "filename": "051_Ad-Dhariyat.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/051_Ad-Dhariyat.mp3"
+    },
+    {
+      "surah_number": 52,
+      "surah_name_arabic": "الطور",
+      "surah_name_english": "At-Tur",
+      "filename": "052_At-Tur.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/052_At-Tur.mp3"
+    },
+    {
+      "surah_number": 53,
+      "surah_name_arabic": "النجم",
+      "surah_name_english": "An-Najm",
+      "filename": "053_An-Najm.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/053_An-Najm.mp3"
+    },
+    {
+      "surah_number": 54,
+      "surah_name_arabic": "القمر",
+      "surah_name_english": "Al-Qamar",
+      "filename": "054_Al-Qamar.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/054_Al-Qamar.mp3"
+    },
+    {
+      "surah_number": 55,
+      "surah_name_arabic": "الرحمن",
+      "surah_name_english": "Ar-Rahman",
+      "filename": "055_Al-Rahman.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/055_Al-Rahman.mp3"
+    },
+    {
+      "surah_number": 56,
+      "surah_name_arabic": "الواقعة",
+      "surah_name_english": "Al-Waqiah",
+      "filename": "056_Al-Waqi`Ah.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/056_Al-Waqi%60Ah.mp3"
+    },
+    {
+      "surah_number": 57,
+      "surah_name_arabic": "الحديد",
+      "surah_name_english": "Al-Hadid",
+      "filename": "057_Al-Hadid.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/057_Al-Hadid.mp3"
+    },
+    {
+      "surah_number": 58,
+      "surah_name_arabic": "المجادلة",
+      "surah_name_english": "Al-Mujadilah",
+      "filename": "058_Al-Mujadilah.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/058_Al-Mujadilah.mp3"
+    },
+    {
+      "surah_number": 59,
+      "surah_name_arabic": "الحشر",
+      "surah_name_english": "Al-Hashr",
+      "filename": "059_Al-Hashr.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/059_Al-Hashr.mp3"
+    },
+    {
+      "surah_number": 60,
+      "surah_name_arabic": "الممتحنة",
+      "surah_name_english": "Al-Mumtahinah",
+      "filename": "060_Al-Mumtahanah.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/060_Al-Mumtahanah.mp3"
+    },
+    {
+      "surah_number": 61,
+      "surah_name_arabic": "الصف",
+      "surah_name_english": "As-Saff",
+      "filename": "061_As-Saf.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/061_As-Saf.mp3"
+    },
+    {
+      "surah_number": 62,
+      "surah_name_arabic": "الجمعة",
+      "surah_name_english": "Al-Jumuah",
+      "filename": "062_Al-Jumu`Ah.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/062_Al-Jumu%60Ah.mp3"
+    },
+    {
+      "surah_number": 63,
+      "surah_name_arabic": "المنافقون",
+      "surah_name_english": "Al-Munafiqun",
+      "filename": "063_Al-Munafiqun.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/063_Al-Munafiqun.mp3"
+    },
+    {
+      "surah_number": 64,
+      "surah_name_arabic": "التغابن",
+      "surah_name_english": "At-Taghabun",
+      "filename": "064_At-Taghabun.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/064_At-Taghabun.mp3"
+    },
+    {
+      "surah_number": 65,
+      "surah_name_arabic": "الطلاق",
+      "surah_name_english": "At-Talaq",
+      "filename": "065_At-Talaq.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/065_At-Talaq.mp3"
+    },
+    {
+      "surah_number": 66,
+      "surah_name_arabic": "التحريم",
+      "surah_name_english": "At-Tahrim",
+      "filename": "066_At-Tahrim.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/066_At-Tahrim.mp3"
+    },
+    {
+      "surah_number": 67,
+      "surah_name_arabic": "الملك",
+      "surah_name_english": "Al-Mulk",
+      "filename": "067_Al-Mulk.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/067_Al-Mulk.mp3"
+    },
+    {
+      "surah_number": 68,
+      "surah_name_arabic": "القلم",
+      "surah_name_english": "Al-Qalam",
+      "filename": "068_Al-Qalam.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/068_Al-Qalam.mp3"
+    },
+    {
+      "surah_number": 69,
+      "surah_name_arabic": "الحاقة",
+      "surah_name_english": "Al-Haqqah",
+      "filename": "069_Al-Haqqah.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/069_Al-Haqqah.mp3"
+    },
+    {
+      "surah_number": 70,
+      "surah_name_arabic": "المعارج",
+      "surah_name_english": "Al-Maarij",
+      "filename": "070_Al-Ma`Arij.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/070_Al-Ma%60Arij.mp3"
+    },
+    {
+      "surah_number": 71,
+      "surah_name_arabic": "نوح",
+      "surah_name_english": "Nuh",
+      "filename": "071_Nuh.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/071_Nuh.mp3"
+    },
+    {
+      "surah_number": 72,
+      "surah_name_arabic": "الجن",
+      "surah_name_english": "Al-Jinn",
+      "filename": "072_Al-Jinn.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/072_Al-Jinn.mp3"
+    },
+    {
+      "surah_number": 73,
+      "surah_name_arabic": "المزمل",
+      "surah_name_english": "Al-Muzzammil",
+      "filename": "073_Al-Muzammil.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/073_Al-Muzammil.mp3"
+    },
+    {
+      "surah_number": 74,
+      "surah_name_arabic": "المدثر",
+      "surah_name_english": "Al-Muddathir",
+      "filename": "074_Al-Mudathir.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/074_Al-Mudathir.mp3"
+    },
+    {
+      "surah_number": 75,
+      "surah_name_arabic": "القيامة",
+      "surah_name_english": "Al-Qiyamah",
+      "filename": "075_Al-Qiyamah.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/075_Al-Qiyamah.mp3"
+    },
+    {
+      "surah_number": 76,
+      "surah_name_arabic": "الإنسان",
+      "surah_name_english": "Al-Insan",
+      "filename": "076_Al-Insane.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/076_Al-Insane.mp3"
+    },
+    {
+      "surah_number": 77,
+      "surah_name_arabic": "المرسلات",
+      "surah_name_english": "Al-Mursalat",
+      "filename": "077_Al-Mursalat.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/077_Al-Mursalat.mp3"
+    },
+    {
+      "surah_number": 78,
+      "surah_name_arabic": "النبأ",
+      "surah_name_english": "An-Naba",
+      "filename": "078_An-Naba'.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/078_An-Naba%27.mp3"
+    },
+    {
+      "surah_number": 79,
+      "surah_name_arabic": "النازعات",
+      "surah_name_english": "An-Naziat",
+      "filename": "79 - Output - Stereo Out.mp3",
+      "url": "https://archive.org/download/holy-quran-cards/79%20-%20Output%20-%20Stereo%20Out.mp3"
+    },
+    {
+      "surah_number": 80,
+      "surah_name_arabic": "عبس",
+      "surah_name_english": "Abasa",
+      "filename": "080_Abasa.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/080_Abasa.mp3"
+    },
+    {
+      "surah_number": 81,
+      "surah_name_arabic": "التكوير",
+      "surah_name_english": "At-Takwir",
+      "filename": "081_At-Takwir.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/081_At-Takwir.mp3"
+    },
+    {
+      "surah_number": 82,
+      "surah_name_arabic": "الإنفطار",
+      "surah_name_english": "Al-Infitar",
+      "filename": "082_Al-Infitar.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/082_Al-Infitar.mp3"
+    },
+    {
+      "surah_number": 83,
+      "surah_name_arabic": "المطففين",
+      "surah_name_english": "Al-Mutaffifin",
+      "filename": "083_Al-Mutaffifeen.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/083_Al-Mutaffifeen.mp3"
+    },
+    {
+      "surah_number": 84,
+      "surah_name_arabic": "الانشقاق",
+      "surah_name_english": "Al-Inshiqaq",
+      "filename": "084_Al-Inshiqaq.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/084_Al-Inshiqaq.mp3"
+    },
+    {
+      "surah_number": 85,
+      "surah_name_arabic": "البروج",
+      "surah_name_english": "Al-Buruj",
+      "filename": "085_Al-Buruj.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/085_Al-Buruj.mp3"
+    },
+    {
+      "surah_number": 86,
+      "surah_name_arabic": "الطارق",
+      "surah_name_english": "At-Tariq",
+      "filename": "086_At-Tariq.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/086_At-Tariq.mp3"
+    },
+    {
+      "surah_number": 87,
+      "surah_name_arabic": "الأعلى",
+      "surah_name_english": "Al-Ala",
+      "filename": "087_Al-A`La.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/087_Al-A%60La.mp3"
+    },
+    {
+      "surah_number": 88,
+      "surah_name_arabic": "الغاشية",
+      "surah_name_english": "Al-Ghashiyah",
+      "filename": "088_Al-Ghashiya.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/088_Al-Ghashiya.mp3"
+    },
+    {
+      "surah_number": 89,
+      "surah_name_arabic": "الفجر",
+      "surah_name_english": "Al-Fajr",
+      "filename": "089_Al-Fajr.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/089_Al-Fajr.mp3"
+    },
+    {
+      "surah_number": 90,
+      "surah_name_arabic": "البلد",
+      "surah_name_english": "Al-Balad",
+      "filename": "090_Al-Balad.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/090_Al-Balad.mp3"
+    },
+    {
+      "surah_number": 91,
+      "surah_name_arabic": "الشمس",
+      "surah_name_english": "Ash-Shams",
+      "filename": "091_Ash-Shams.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/091_Ash-Shams.mp3"
+    },
+    {
+      "surah_number": 92,
+      "surah_name_arabic": "الليل",
+      "surah_name_english": "Al-Layl",
+      "filename": "092_Al-Layl.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/092_Al-Layl.mp3"
+    },
+    {
+      "surah_number": 93,
+      "surah_name_arabic": "الضحى",
+      "surah_name_english": "Ad-Duha",
+      "filename": "093_Ad-Duha.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/093_Ad-Duha.mp3"
+    },
+    {
+      "surah_number": 94,
+      "surah_name_arabic": "الشرح",
+      "surah_name_english": "Ash-Sharh",
+      "filename": "094_Ash-Sharh.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/094_Ash-Sharh.mp3"
+    },
+    {
+      "surah_number": 95,
+      "surah_name_arabic": "التين",
+      "surah_name_english": "At-Tin",
+      "filename": "095_At-Tin.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/095_At-Tin.mp3"
+    },
+    {
+      "surah_number": 96,
+      "surah_name_arabic": "العلق",
+      "surah_name_english": "Al-Alaq",
+      "filename": "096_Al-`Alaq.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/096_Al-%60Alaq.mp3"
+    },
+    {
+      "surah_number": 97,
+      "surah_name_arabic": "القدر",
+      "surah_name_english": "Al-Qadr",
+      "filename": "097_An-Nazi`At.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/097_An-Nazi%60At.mp3"
+    },
+    {
+      "surah_number": 98,
+      "surah_name_arabic": "البينة",
+      "surah_name_english": "Al-Bayyinah",
+      "filename": "098_Al-Bayyinah.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/098_Al-Bayyinah.mp3"
+    },
+    {
+      "surah_number": 99,
+      "surah_name_arabic": "الزلزلة",
+      "surah_name_english": "Az-Zalzalah",
+      "filename": "099_Az-Zalzala.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/099_Az-Zalzala.mp3"
+    },
+    {
+      "surah_number": 100,
+      "surah_name_arabic": "العاديات",
+      "surah_name_english": "Al-Adiyat",
+      "filename": "100_Al-`Adiyat.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/100_Al-%60Adiyat.mp3"
+    },
+    {
+      "surah_number": 101,
+      "surah_name_arabic": "القارعة",
+      "surah_name_english": "Al-Qariah",
+      "filename": "101_Al-Qari`Ah.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/101_Al-Qari%60Ah.mp3"
+    },
+    {
+      "surah_number": 102,
+      "surah_name_arabic": "التكاثر",
+      "surah_name_english": "At-Takathur",
+      "filename": "102_At-Takathur.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/102_At-Takathur.mp3"
+    },
+    {
+      "surah_number": 103,
+      "surah_name_arabic": "العصر",
+      "surah_name_english": "Al-Asr",
+      "filename": "103_Al-`Asr.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/103_Al-%60Asr.mp3"
+    },
+    {
+      "surah_number": 104,
+      "surah_name_arabic": "الهمزة",
+      "surah_name_english": "Al-Humazah",
+      "filename": "104_Al-Humazah.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/104_Al-Humazah.mp3"
+    },
+    {
+      "surah_number": 105,
+      "surah_name_arabic": "الفيل",
+      "surah_name_english": "Al-Fil",
+      "filename": "105_Al-Fil.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/105_Al-Fil.mp3"
+    },
+    {
+      "surah_number": 106,
+      "surah_name_arabic": "قريش",
+      "surah_name_english": "Quraysh",
+      "filename": "106_Al-Quraish.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/106_Al-Quraish.mp3"
+    },
+    {
+      "surah_number": 107,
+      "surah_name_arabic": "الماعون",
+      "surah_name_english": "Al-Maun",
+      "filename": "107_Al-Ma`Un.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/107_Al-Ma%60Un.mp3"
+    },
+    {
+      "surah_number": 108,
+      "surah_name_arabic": "الكوثر",
+      "surah_name_english": "Al-Kawthar",
+      "filename": "108_Al-Kauthar.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/108_Al-Kauthar.mp3"
+    },
+    {
+      "surah_number": 109,
+      "surah_name_arabic": "الكافرون",
+      "surah_name_english": "Al-Kafirun",
+      "filename": "109_Al-Kafirun.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/109_Al-Kafirun.mp3"
+    },
+    {
+      "surah_number": 110,
+      "surah_name_arabic": "النصر",
+      "surah_name_english": "An-Nasr",
+      "filename": "110_An-Nasr.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/110_An-Nasr.mp3"
+    },
+    {
+      "surah_number": 111,
+      "surah_name_arabic": "المسد",
+      "surah_name_english": "Al-Masad",
+      "filename": "111_Al-Masad.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/111_Al-Masad.mp3"
+    },
+    {
+      "surah_number": 112,
+      "surah_name_arabic": "الإخلاص",
+      "surah_name_english": "Al-Ikhlas",
+      "filename": "112_Al-Ikhlas.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/112_Al-Ikhlas.mp3"
+    },
+    {
+      "surah_number": 113,
+      "surah_name_arabic": "الفلق",
+      "surah_name_english": "Al-Falaq",
+      "filename": "113_Al-Falaq.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/113_Al-Falaq.mp3"
+    },
+    {
+      "surah_number": 114,
+      "surah_name_arabic": "الناس",
+      "surah_name_english": "An-Nas",
+      "filename": "114_An-Nas.mp3",
+      "url": "https://archive.org/download/AlBitaqat-Sounds/114_An-Nas.mp3"
+    }
+  ]
+}

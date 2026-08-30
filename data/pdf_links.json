@@ -1,0 +1,808 @@
+{
+  "type": "pdf",
+  "format": "PDF",
+  "source": "https://albitaqat.com/",
+  "archive_collection": "https://archive.org/download/al-bitaqat-book-ar_pages",
+  "bulk_download": "https://archive.org/download/al-bitaqat-book/AlBitaqat-Book-ar.pdf",
+  "total_files": 114,
+  "files": [
+    {
+      "surah_number": 1,
+      "surah_name_arabic": "الفاتحة",
+      "surah_name_english": "Al-Fatihah",
+      "filename": "AlBitaqat-Book-ar_001.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_001.pdf"
+    },
+    {
+      "surah_number": 2,
+      "surah_name_arabic": "البقرة",
+      "surah_name_english": "Al-Baqarah",
+      "filename": "AlBitaqat-Book-ar_002.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_002.pdf"
+    },
+    {
+      "surah_number": 3,
+      "surah_name_arabic": "آل عمران",
+      "surah_name_english": "Al-Imran",
+      "filename": "AlBitaqat-Book-ar_003.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_003.pdf"
+    },
+    {
+      "surah_number": 4,
+      "surah_name_arabic": "النساء",
+      "surah_name_english": "An-Nisa",
+      "filename": "AlBitaqat-Book-ar_004.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_004.pdf"
+    },
+    {
+      "surah_number": 5,
+      "surah_name_arabic": "المائدة",
+      "surah_name_english": "Al-Maidah",
+      "filename": "AlBitaqat-Book-ar_005.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_005.pdf"
+    },
+    {
+      "surah_number": 6,
+      "surah_name_arabic": "الأنعام",
+      "surah_name_english": "Al-Anam",
+      "filename": "AlBitaqat-Book-ar_006.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_006.pdf"
+    },
+    {
+      "surah_number": 7,
+      "surah_name_arabic": "الأعراف",
+      "surah_name_english": "Al-Araf",
+      "filename": "AlBitaqat-Book-ar_007.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_007.pdf"
+    },
+    {
+      "surah_number": 8,
+      "surah_name_arabic": "الأنفال",
+      "surah_name_english": "Al-Anfal",
+      "filename": "AlBitaqat-Book-ar_008.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_008.pdf"
+    },
+    {
+      "surah_number": 9,
+      "surah_name_arabic": "التوبة",
+      "surah_name_english": "At-Tawbah",
+      "filename": "AlBitaqat-Book-ar_009.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_009.pdf"
+    },
+    {
+      "surah_number": 10,
+      "surah_name_arabic": "يونس",
+      "surah_name_english": "Yunus",
+      "filename": "AlBitaqat-Book-ar_010.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_010.pdf"
+    },
+    {
+      "surah_number": 11,
+      "surah_name_arabic": "هود",
+      "surah_name_english": "Hud",
+      "filename": "AlBitaqat-Book-ar_011.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_011.pdf"
+    },
+    {
+      "surah_number": 12,
+      "surah_name_arabic": "يوسف",
+      "surah_name_english": "Yusuf",
+      "filename": "AlBitaqat-Book-ar_012.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_012.pdf"
+    },
+    {
+      "surah_number": 13,
+      "surah_name_arabic": "الرعد",
+      "surah_name_english": "Ar-Rad",
+      "filename": "AlBitaqat-Book-ar_013.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_013.pdf"
+    },
+    {
+      "surah_number": 14,
+      "surah_name_arabic": "إبراهيم",
+      "surah_name_english": "Ibrahim",
+      "filename": "AlBitaqat-Book-ar_014.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_014.pdf"
+    },
+    {
+      "surah_number": 15,
+      "surah_name_arabic": "الحجر",
+      "surah_name_english": "Al-Hijr",
+      "filename": "AlBitaqat-Book-ar_015.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_015.pdf"
+    },
+    {
+      "surah_number": 16,
+      "surah_name_arabic": "النحل",
+      "surah_name_english": "An-Nahl",
+      "filename": "AlBitaqat-Book-ar_016.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_016.pdf"
+    },
+    {
+      "surah_number": 17,
+      "surah_name_arabic": "الإسراء",
+      "surah_name_english": "Al-Isra",
+      "filename": "AlBitaqat-Book-ar_017.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_017.pdf"
+    },
+    {
+      "surah_number": 18,
+      "surah_name_arabic": "الكهف",
+      "surah_name_english": "Al-Kahf",
+      "filename": "AlBitaqat-Book-ar_018.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_018.pdf"
+    },
+    {
+      "surah_number": 19,
+      "surah_name_arabic": "مريم",
+      "surah_name_english": "Maryam",
+      "filename": "AlBitaqat-Book-ar_019.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_019.pdf"
+    },
+    {
+      "surah_number": 20,
+      "surah_name_arabic": "طه",
+      "surah_name_english": "Taha",
+      "filename": "AlBitaqat-Book-ar_020.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_020.pdf"
+    },
+    {
+      "surah_number": 21,
+      "surah_name_arabic": "الأنبياء",
+      "surah_name_english": "Al-Anbiya",
+      "filename": "AlBitaqat-Book-ar_021.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_021.pdf"
+    },
+    {
+      "surah_number": 22,
+      "surah_name_arabic": "الحج",
+      "surah_name_english": "Al-Hajj",
+      "filename": "AlBitaqat-Book-ar_022.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_022.pdf"
+    },
+    {
+      "surah_number": 23,
+      "surah_name_arabic": "المؤمنون",
+      "surah_name_english": "Al-Muminun",
+      "filename": "AlBitaqat-Book-ar_023.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_023.pdf"
+    },
+    {
+      "surah_number": 24,
+      "surah_name_arabic": "النور",
+      "surah_name_english": "An-Nur",
+      "filename": "AlBitaqat-Book-ar_024.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_024.pdf"
+    },
+    {
+      "surah_number": 25,
+      "surah_name_arabic": "الفرقان",
+      "surah_name_english": "Al-Furqan",
+      "filename": "AlBitaqat-Book-ar_025.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_025.pdf"
+    },
+    {
+      "surah_number": 26,
+      "surah_name_arabic": "الشعراء",
+      "surah_name_english": "Ash-Shuara",
+      "filename": "AlBitaqat-Book-ar_026.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_026.pdf"
+    },
+    {
+      "surah_number": 27,
+      "surah_name_arabic": "النمل",
+      "surah_name_english": "An-Naml",
+      "filename": "AlBitaqat-Book-ar_027.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_027.pdf"
+    },
+    {
+      "surah_number": 28,
+      "surah_name_arabic": "القصص",
+      "surah_name_english": "Al-Qasas",
+      "filename": "AlBitaqat-Book-ar_028.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_028.pdf"
+    },
+    {
+      "surah_number": 29,
+      "surah_name_arabic": "العنكبوت",
+      "surah_name_english": "Al-Ankabut",
+      "filename": "AlBitaqat-Book-ar_029.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_029.pdf"
+    },
+    {
+      "surah_number": 30,
+      "surah_name_arabic": "الروم",
+      "surah_name_english": "Ar-Rum",
+      "filename": "AlBitaqat-Book-ar_030.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_030.pdf"
+    },
+    {
+      "surah_number": 31,
+      "surah_name_arabic": "لقمان",
+      "surah_name_english": "Luqman",
+      "filename": "AlBitaqat-Book-ar_031.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_031.pdf"
+    },
+    {
+      "surah_number": 32,
+      "surah_name_arabic": "السجدة",
+      "surah_name_english": "As-Sajdah",
+      "filename": "AlBitaqat-Book-ar_032.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_032.pdf"
+    },
+    {
+      "surah_number": 33,
+      "surah_name_arabic": "الأحزاب",
+      "surah_name_english": "Al-Ahzab",
+      "filename": "AlBitaqat-Book-ar_033.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_033.pdf"
+    },
+    {
+      "surah_number": 34,
+      "surah_name_arabic": "سبأ",
+      "surah_name_english": "Saba",
+      "filename": "AlBitaqat-Book-ar_034.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_034.pdf"
+    },
+    {
+      "surah_number": 35,
+      "surah_name_arabic": "فاطر",
+      "surah_name_english": "Fatir",
+      "filename": "AlBitaqat-Book-ar_035.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_035.pdf"
+    },
+    {
+      "surah_number": 36,
+      "surah_name_arabic": "يس",
+      "surah_name_english": "Ya-Sin",
+      "filename": "AlBitaqat-Book-ar_036.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_036.pdf"
+    },
+    {
+      "surah_number": 37,
+      "surah_name_arabic": "الصافات",
+      "surah_name_english": "As-Saffat",
+      "filename": "AlBitaqat-Book-ar_037.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_037.pdf"
+    },
+    {
+      "surah_number": 38,
+      "surah_name_arabic": "ص",
+      "surah_name_english": "Sad",
+      "filename": "AlBitaqat-Book-ar_038.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_038.pdf"
+    },
+    {
+      "surah_number": 39,
+      "surah_name_arabic": "الزمر",
+      "surah_name_english": "Az-Zumar",
+      "filename": "AlBitaqat-Book-ar_039.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_039.pdf"
+    },
+    {
+      "surah_number": 40,
+      "surah_name_arabic": "غافر",
+      "surah_name_english": "Ghafir",
+      "filename": "AlBitaqat-Book-ar_040.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_040.pdf"
+    },
+    {
+      "surah_number": 41,
+      "surah_name_arabic": "فصلت",
+      "surah_name_english": "Fussilat",
+      "filename": "AlBitaqat-Book-ar_041.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_041.pdf"
+    },
+    {
+      "surah_number": 42,
+      "surah_name_arabic": "الشورى",
+      "surah_name_english": "Ash-Shura",
+      "filename": "AlBitaqat-Book-ar_042.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_042.pdf"
+    },
+    {
+      "surah_number": 43,
+      "surah_name_arabic": "الزخرف",
+      "surah_name_english": "Az-Zukhruf",
+      "filename": "AlBitaqat-Book-ar_043.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_043.pdf"
+    },
+    {
+      "surah_number": 44,
+      "surah_name_arabic": "الدخان",
+      "surah_name_english": "Ad-Dukhan",
+      "filename": "AlBitaqat-Book-ar_044.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_044.pdf"
+    },
+    {
+      "surah_number": 45,
+      "surah_name_arabic": "الجاثية",
+      "surah_name_english": "Al-Jathiyah",
+      "filename": "AlBitaqat-Book-ar_045.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_045.pdf"
+    },
+    {
+      "surah_number": 46,
+      "surah_name_arabic": "الأحقاف",
+      "surah_name_english": "Al-Ahqaf",
+      "filename": "AlBitaqat-Book-ar_046.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_046.pdf"
+    },
+    {
+      "surah_number": 47,
+      "surah_name_arabic": "محمد",
+      "surah_name_english": "Muhammad",
+      "filename": "AlBitaqat-Book-ar_047.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_047.pdf"
+    },
+    {
+      "surah_number": 48,
+      "surah_name_arabic": "الفتح",
+      "surah_name_english": "Al-Fath",
+      "filename": "AlBitaqat-Book-ar_048.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_048.pdf"
+    },
+    {
+      "surah_number": 49,
+      "surah_name_arabic": "الحجرات",
+      "surah_name_english": "Al-Hujurat",
+      "filename": "AlBitaqat-Book-ar_049.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_049.pdf"
+    },
+    {
+      "surah_number": 50,
+      "surah_name_arabic": "ق",
+      "surah_name_english": "Qaf",
+      "filename": "AlBitaqat-Book-ar_050.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_050.pdf"
+    },
+    {
+      "surah_number": 51,
+      "surah_name_arabic": "الذاريات",
+      "surah_name_english": "Adh-Dhariyat",
+      "filename": "AlBitaqat-Book-ar_051.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_051.pdf"
+    },
+    {
+      "surah_number": 52,
+      "surah_name_arabic": "الطور",
+      "surah_name_english": "At-Tur",
+      "filename": "AlBitaqat-Book-ar_052.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_052.pdf"
+    },
+    {
+      "surah_number": 53,
+      "surah_name_arabic": "النجم",
+      "surah_name_english": "An-Najm",
+      "filename": "AlBitaqat-Book-ar_053.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_053.pdf"
+    },
+    {
+      "surah_number": 54,
+      "surah_name_arabic": "القمر",
+      "surah_name_english": "Al-Qamar",
+      "filename": "AlBitaqat-Book-ar_054.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_054.pdf"
+    },
+    {
+      "surah_number": 55,
+      "surah_name_arabic": "الرحمن",
+      "surah_name_english": "Ar-Rahman",
+      "filename": "AlBitaqat-Book-ar_055.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_055.pdf"
+    },
+    {
+      "surah_number": 56,
+      "surah_name_arabic": "الواقعة",
+      "surah_name_english": "Al-Waqiah",
+      "filename": "AlBitaqat-Book-ar_056.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_056.pdf"
+    },
+    {
+      "surah_number": 57,
+      "surah_name_arabic": "الحديد",
+      "surah_name_english": "Al-Hadid",
+      "filename": "AlBitaqat-Book-ar_057.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_057.pdf"
+    },
+    {
+      "surah_number": 58,
+      "surah_name_arabic": "المجادلة",
+      "surah_name_english": "Al-Mujadilah",
+      "filename": "AlBitaqat-Book-ar_058.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_058.pdf"
+    },
+    {
+      "surah_number": 59,
+      "surah_name_arabic": "الحشر",
+      "surah_name_english": "Al-Hashr",
+      "filename": "AlBitaqat-Book-ar_059.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_059.pdf"
+    },
+    {
+      "surah_number": 60,
+      "surah_name_arabic": "الممتحنة",
+      "surah_name_english": "Al-Mumtahinah",
+      "filename": "AlBitaqat-Book-ar_060.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_060.pdf"
+    },
+    {
+      "surah_number": 61,
+      "surah_name_arabic": "الصف",
+      "surah_name_english": "As-Saff",
+      "filename": "AlBitaqat-Book-ar_061.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_061.pdf"
+    },
+    {
+      "surah_number": 62,
+      "surah_name_arabic": "الجمعة",
+      "surah_name_english": "Al-Jumuah",
+      "filename": "AlBitaqat-Book-ar_062.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_062.pdf"
+    },
+    {
+      "surah_number": 63,
+      "surah_name_arabic": "المنافقون",
+      "surah_name_english": "Al-Munafiqun",
+      "filename": "AlBitaqat-Book-ar_063.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_063.pdf"
+    },
+    {
+      "surah_number": 64,
+      "surah_name_arabic": "التغابن",
+      "surah_name_english": "At-Taghabun",
+      "filename": "AlBitaqat-Book-ar_064.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_064.pdf"
+    },
+    {
+      "surah_number": 65,
+      "surah_name_arabic": "الطلاق",
+      "surah_name_english": "At-Talaq",
+      "filename": "AlBitaqat-Book-ar_065.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_065.pdf"
+    },
+    {
+      "surah_number": 66,
+      "surah_name_arabic": "التحريم",
+      "surah_name_english": "At-Tahrim",
+      "filename": "AlBitaqat-Book-ar_066.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_066.pdf"
+    },
+    {
+      "surah_number": 67,
+      "surah_name_arabic": "الملك",
+      "surah_name_english": "Al-Mulk",
+      "filename": "AlBitaqat-Book-ar_067.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_067.pdf"
+    },
+    {
+      "surah_number": 68,
+      "surah_name_arabic": "القلم",
+      "surah_name_english": "Al-Qalam",
+      "filename": "AlBitaqat-Book-ar_068.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_068.pdf"
+    },
+    {
+      "surah_number": 69,
+      "surah_name_arabic": "الحاقة",
+      "surah_name_english": "Al-Haqqah",
+      "filename": "AlBitaqat-Book-ar_069.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_069.pdf"
+    },
+    {
+      "surah_number": 70,
+      "surah_name_arabic": "المعارج",
+      "surah_name_english": "Al-Maarij",
+      "filename": "AlBitaqat-Book-ar_070.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_070.pdf"
+    },
+    {
+      "surah_number": 71,
+      "surah_name_arabic": "نوح",
+      "surah_name_english": "Nuh",
+      "filename": "AlBitaqat-Book-ar_071.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_071.pdf"
+    },
+    {
+      "surah_number": 72,
+      "surah_name_arabic": "الجن",
+      "surah_name_english": "Al-Jinn",
+      "filename": "AlBitaqat-Book-ar_072.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_072.pdf"
+    },
+    {
+      "surah_number": 73,
+      "surah_name_arabic": "المزمل",
+      "surah_name_english": "Al-Muzzammil",
+      "filename": "AlBitaqat-Book-ar_073.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_073.pdf"
+    },
+    {
+      "surah_number": 74,
+      "surah_name_arabic": "المدثر",
+      "surah_name_english": "Al-Muddathir",
+      "filename": "AlBitaqat-Book-ar_074.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_074.pdf"
+    },
+    {
+      "surah_number": 75,
+      "surah_name_arabic": "القيامة",
+      "surah_name_english": "Al-Qiyamah",
+      "filename": "AlBitaqat-Book-ar_075.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_075.pdf"
+    },
+    {
+      "surah_number": 76,
+      "surah_name_arabic": "الإنسان",
+      "surah_name_english": "Al-Insan",
+      "filename": "AlBitaqat-Book-ar_076.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_076.pdf"
+    },
+    {
+      "surah_number": 77,
+      "surah_name_arabic": "المرسلات",
+      "surah_name_english": "Al-Mursalat",
+      "filename": "AlBitaqat-Book-ar_077.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_077.pdf"
+    },
+    {
+      "surah_number": 78,
+      "surah_name_arabic": "النبأ",
+      "surah_name_english": "An-Naba",
+      "filename": "AlBitaqat-Book-ar_078.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_078.pdf"
+    },
+    {
+      "surah_number": 79,
+      "surah_name_arabic": "النازعات",
+      "surah_name_english": "An-Naziat",
+      "filename": "AlBitaqat-Book-ar_079.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_079.pdf"
+    },
+    {
+      "surah_number": 80,
+      "surah_name_arabic": "عبس",
+      "surah_name_english": "Abasa",
+      "filename": "AlBitaqat-Book-ar_080.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_080.pdf"
+    },
+    {
+      "surah_number": 81,
+      "surah_name_arabic": "التكوير",
+      "surah_name_english": "At-Takwir",
+      "filename": "AlBitaqat-Book-ar_081.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_081.pdf"
+    },
+    {
+      "surah_number": 82,
+      "surah_name_arabic": "الإنفطار",
+      "surah_name_english": "Al-Infitar",
+      "filename": "AlBitaqat-Book-ar_082.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_082.pdf"
+    },
+    {
+      "surah_number": 83,
+      "surah_name_arabic": "المطففين",
+      "surah_name_english": "Al-Mutaffifin",
+      "filename": "AlBitaqat-Book-ar_083.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_083.pdf"
+    },
+    {
+      "surah_number": 84,
+      "surah_name_arabic": "الانشقاق",
+      "surah_name_english": "Al-Inshiqaq",
+      "filename": "AlBitaqat-Book-ar_084.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_084.pdf"
+    },
+    {
+      "surah_number": 85,
+      "surah_name_arabic": "البروج",
+      "surah_name_english": "Al-Buruj",
+      "filename": "AlBitaqat-Book-ar_085.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_085.pdf"
+    },
+    {
+      "surah_number": 86,
+      "surah_name_arabic": "الطارق",
+      "surah_name_english": "At-Tariq",
+      "filename": "AlBitaqat-Book-ar_086.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_086.pdf"
+    },
+    {
+      "surah_number": 87,
+      "surah_name_arabic": "الأعلى",
+      "surah_name_english": "Al-Ala",
+      "filename": "AlBitaqat-Book-ar_087.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_087.pdf"
+    },
+    {
+      "surah_number": 88,
+      "surah_name_arabic": "الغاشية",
+      "surah_name_english": "Al-Ghashiyah",
+      "filename": "AlBitaqat-Book-ar_088.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_088.pdf"
+    },
+    {
+      "surah_number": 89,
+      "surah_name_arabic": "الفجر",
+      "surah_name_english": "Al-Fajr",
+      "filename": "AlBitaqat-Book-ar_089.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_089.pdf"
+    },
+    {
+      "surah_number": 90,
+      "surah_name_arabic": "البلد",
+      "surah_name_english": "Al-Balad",
+      "filename": "AlBitaqat-Book-ar_090.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_090.pdf"
+    },
+    {
+      "surah_number": 91,
+      "surah_name_arabic": "الشمس",
+      "surah_name_english": "Ash-Shams",
+      "filename": "AlBitaqat-Book-ar_091.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_091.pdf"
+    },
+    {
+      "surah_number": 92,
+      "surah_name_arabic": "الليل",
+      "surah_name_english": "Al-Layl",
+      "filename": "AlBitaqat-Book-ar_092.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_092.pdf"
+    },
+    {
+      "surah_number": 93,
+      "surah_name_arabic": "الضحى",
+      "surah_name_english": "Ad-Duha",
+      "filename": "AlBitaqat-Book-ar_093.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_093.pdf"
+    },
+    {
+      "surah_number": 94,
+      "surah_name_arabic": "الشرح",
+      "surah_name_english": "Ash-Sharh",
+      "filename": "AlBitaqat-Book-ar_094.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_094.pdf"
+    },
+    {
+      "surah_number": 95,
+      "surah_name_arabic": "التين",
+      "surah_name_english": "At-Tin",
+      "filename": "AlBitaqat-Book-ar_095.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_095.pdf"
+    },
+    {
+      "surah_number": 96,
+      "surah_name_arabic": "العلق",
+      "surah_name_english": "Al-Alaq",
+      "filename": "AlBitaqat-Book-ar_096.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_096.pdf"
+    },
+    {
+      "surah_number": 97,
+      "surah_name_arabic": "القدر",
+      "surah_name_english": "Al-Qadr",
+      "filename": "AlBitaqat-Book-ar_097.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_097.pdf"
+    },
+    {
+      "surah_number": 98,
+      "surah_name_arabic": "البينة",
+      "surah_name_english": "Al-Bayyinah",
+      "filename": "AlBitaqat-Book-ar_098.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_098.pdf"
+    },
+    {
+      "surah_number": 99,
+      "surah_name_arabic": "الزلزلة",
+      "surah_name_english": "Az-Zalzalah",
+      "filename": "AlBitaqat-Book-ar_099.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_099.pdf"
+    },
+    {
+      "surah_number": 100,
+      "surah_name_arabic": "العاديات",
+      "surah_name_english": "Al-Adiyat",
+      "filename": "AlBitaqat-Book-ar_100.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_100.pdf"
+    },
+    {
+      "surah_number": 101,
+      "surah_name_arabic": "القارعة",
+      "surah_name_english": "Al-Qariah",
+      "filename": "AlBitaqat-Book-ar_101.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_101.pdf"
+    },
+    {
+      "surah_number": 102,
+      "surah_name_arabic": "التكاثر",
+      "surah_name_english": "At-Takathur",
+      "filename": "AlBitaqat-Book-ar_102.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_102.pdf"
+    },
+    {
+      "surah_number": 103,
+      "surah_name_arabic": "العصر",
+      "surah_name_english": "Al-Asr",
+      "filename": "AlBitaqat-Book-ar_103.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_103.pdf"
+    },
+    {
+      "surah_number": 104,
+      "surah_name_arabic": "الهمزة",
+      "surah_name_english": "Al-Humazah",
+      "filename": "AlBitaqat-Book-ar_104.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_104.pdf"
+    },
+    {
+      "surah_number": 105,
+      "surah_name_arabic": "الفيل",
+      "surah_name_english": "Al-Fil",
+      "filename": "AlBitaqat-Book-ar_105.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_105.pdf"
+    },
+    {
+      "surah_number": 106,
+      "surah_name_arabic": "قريش",
+      "surah_name_english": "Quraysh",
+      "filename": "AlBitaqat-Book-ar_106.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_106.pdf"
+    },
+    {
+      "surah_number": 107,
+      "surah_name_arabic": "الماعون",
+      "surah_name_english": "Al-Maun",
+      "filename": "AlBitaqat-Book-ar_107.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_107.pdf"
+    },
+    {
+      "surah_number": 108,
+      "surah_name_arabic": "الكوثر",
+      "surah_name_english": "Al-Kawthar",
+      "filename": "AlBitaqat-Book-ar_108.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_108.pdf"
+    },
+    {
+      "surah_number": 109,
+      "surah_name_arabic": "الكافرون",
+      "surah_name_english": "Al-Kafirun",
+      "filename": "AlBitaqat-Book-ar_109.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_109.pdf"
+    },
+    {
+      "surah_number": 110,
+      "surah_name_arabic": "النصر",
+      "surah_name_english": "An-Nasr",
+      "filename": "AlBitaqat-Book-ar_110.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_110.pdf"
+    },
+    {
+      "surah_number": 111,
+      "surah_name_arabic": "المسد",
+      "surah_name_english": "Al-Masad",
+      "filename": "AlBitaqat-Book-ar_111.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_111.pdf"
+    },
+    {
+      "surah_number": 112,
+      "surah_name_arabic": "الإخلاص",
+      "surah_name_english": "Al-Ikhlas",
+      "filename": "AlBitaqat-Book-ar_112.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_112.pdf"
+    },
+    {
+      "surah_number": 113,
+      "surah_name_arabic": "الفلق",
+      "surah_name_english": "Al-Falaq",
+      "filename": "AlBitaqat-Book-ar_113.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_113.pdf"
+    },
+    {
+      "surah_number": 114,
+      "surah_name_arabic": "الناس",
+      "surah_name_english": "An-Nas",
+      "filename": "AlBitaqat-Book-ar_114.pdf",
+      "url": "https://archive.org/download/al-bitaqat-book-ar_pages/AlBitaqat-Book-ar_114.pdf"
+    }
+  ]
+}
