@@ -26,7 +26,8 @@
 
 | الملف | الوصف |
 |-------|-------|
-| [`data/quran_cards_full.json`](data/quran_cards_full.json) | البيانات الشاملة لـ 114 سورة مع جميع الروابط |
+| [`data/quran_cards.json`](data/quran_cards.json) | البيانات الأصلية المكشطة من الموقع (114 سورة مع card_data) |
+| [`data/quran_cards_full.json`](data/quran_cards_full.json) | البيانات الشاملة مع روابط الصوت و PDF و يوتيوب |
 | [`data/audio_links.json`](data/audio_links.json) | روابط تحميل الصوت (114 ملف MP3) |
 | [`data/pdf_links.json`](data/pdf_links.json) | روابط تحميل البطاقات بصيغة PDF (114 ملف) |
 | [`data/youtube_videos.json`](data/youtube_videos.json) | فيديوهات شرح البطاقات من يوتيوب (140+) |
